@@ -1,0 +1,608 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : CProxyPOP3
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x102b66f504c756dc
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  internal_properties : CAAAAAgAAABbYxPojBCvRH6kQh7bc88bHtMEocKAI8JA3leF1twEO6zp1AoFyZ/elij4dL51X3G5i4g7ufPRuEC+pNvSTgCCwnlTtBo2ELfvmdzkb1iQeNjGfkPK5svtRyEJQ19shJl5sNdkoxKObJ/YqymN6Ly29XL3LXIN5RYqANg/n1vf+iaop66iugoESpcHvzIamNpL85SmHzFnh2dCAy41ZjYxPvxX1MIX79yrCevRgVEq2hbF9FyEAE+pGfbcGSSIMYrPBRKHcL9F0fqRbb5rOzDBpU+xNRhtvVij7o+CQ+16UMMf/0tNdLdcuih0KSb93ML1o07dIaZVYqVc87JTkI16HrciyQuMg17lTpyiJKj9s6YRHAe+QqzaOrbyaXJ+jXq3weq8BimR4sA6o+kMSFl0zcALKZioCsf1Ksc3GEo85tYMh0KKrqIb/CjDLlq+BuGRquyCiCOdfpHG5QMgH7N4YPP6w0nZFOOWFcbFdUQE4ZY/VMKm6eRf+EYJWrfVz+9xDDfmHZ6uh4wUM3T7VSSqdux2jWX41cP452t2GEU9qA5hvrOTLq54kf66uyohBuzjToXz81I42YLSzfSQ3S5VnSMPhFdJXHUtLvD3JP1p2OoIDhreenGuH/N33iUPcKWIFtSMtUSgU5mI9MmbrrmXapmFQ0rzDxZ02XhykqzhbxH4ce1Qq8tYHFtpMsq1in5FHClalh4rKhkmyvaoCZbth1wWXezg8NKMgAb330XzjkCKbDJviNzR/qD1G5NQQEUOjRIQVCKS0u+uL157J5rXzK7B9jMVObwY1MrTOnWYOWHkAyrzCvU5twlxGGSkWNxDXu3HmFak3yvv8YLQYTEfiwqKQsgh6lVSbKPZNd6T+iFxr5isXU0IbbpWB1VYgVV12nmwdA==
+  type_code : 10
+  p_codes :
+   -
+     code : |1+
+      CProxyPOP3 est une classe
+      	m_bSessionEnCours 	est un booleen
+      	m_sUser 			est une chaine
+      	m_sPwd 				est une chaine
+      	m_sServer 			est une chaine
+      	m_sBaniere 			est une chaine
+      	m_sNomCanal 		est une chaine
+      	m_sNomSocket 		est une chaine
+      Fin
+     type : 131072
+   -
+     code : |1-
+      
+     type : 131074
+  procedures :
+   -
+     name : Constructeur
+     procedure_id : 1165138131138664166
+     type_code : 27
+     code : |1+
+      // Syntaxe :
+      //CProxyPOP3 (<sNomCanal> est chaîne)
+      //
+      // Paramètres :
+      //	sNomCanal ( chaîne ) : Identifiant du canal de communication avec le vrai serveur
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure Constructeur( sNomCanal est une chaine )
+      
+      :m_bSessionEnCours 	= vrai
+      :m_sNomCanal 		= sNomCanal
+      :m_sNomSocket 		= ""
+     type : 589824
+   -
+     name : Destructeur
+     internal_properties : CAAAAAgAAAAtRejslb0QE4uKuGjOgosNVUzrovBh1VqtcNHsQ2gZNvKU/3fIC+WcBw2mupTshdH/G9GEheYb3bj9iIdedXD8umN1cwPwZD4AMfpht9WCoZ2TC6e83nZLgZGf6dqOhGkwAAlnp+UgGaXtSVgtVgUMvsvt+PPdUcxFA2MV3t7w7R8aKpKM0C3it21yO/nym0K4vA==
+     procedure_id : 1165138131138729702
+     type_code : 28
+     code : |1+
+      // Syntaxe :
+      //Classe1 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure Destructeur()
+      
+      si SocketExiste(:m_sNomSocket) alors SocketFerme(:m_sNomSocket)
+     type : 655360
+   -
+     name : sBanniere
+     internal_properties : CAAAAAgAAADC5BKo7HY/OBZvBIQUBE4zJMj1HG+1oURhpD6ba6Xg9DChPSZ2lTP/F4nb7LEOfPalTJzZPzjxo0KM+xaZ/NxGSwmlhdApTF3V6rh87n09M4W3jg6NhADM9yiNaoFoBYNwcooQ9M24tFHYbe3w6k4K4oUqnYLTa9FvqDVyqXaDY3vKqXHNAO0H+SqmVsCBxhb3u3pT4w==
+     procedure_id : 1165138307232495993
+     type_code : 12
+     code : |1+
+      // Syntaxe :
+      //[ <Résultat> = ] sBanniere ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne C : 
+      
+      Procédure sBanniere()
+      // Retourne une bannière d'accueil
+      
+      renvoyer <§$0000§>
+     type : 458752
+   -
+     name : sTraiteRequete
+     internal_properties : CAAAAAgAAADM45EdEreVOp94qXAi4s3K3TThO8mS+JbLDvOsaYeYtjB6pqZdoJMZzidAf7gHGbuNSsIWNBqd0EylvFAw4mxwU55jmda4EkKNEnq/O2B5v97c+ulGaB9Yp5oiy8SY3KVRZCbt8TfrwOFqyLS/6IMCiVvGfkvhvHd90OpBpvLaDsOb8E3NO2VkRgXCPDIiZtGr6CWFVwqhx5vMFu9SNLn1Rj5BNg==
+     procedure_id : 1165138367362051847
+     type_code : 12
+     code : |1+
+      // Syntaxe :
+      //[ <Résultat> = ] sTraiteRequete (<sRequete> est chaîne)
+      //
+      // Paramètres :
+      //	sRequete ( chaîne ) : <indiquez ici le rôle de sRequete>
+      // Valeur de retour :
+      // 	Type indéterminé :       Requête reçue
+      //	bSessionEnCours ( booléen ) : Passer à faux pour terminer la session après avoir renvoyé le résultat de la requete
+      
+      Procédure sTraiteRequete( sRequete est une chaine )
+      
+      XLOG(<§$0001§>,<§$0002§>+sRequete)
+      
+      // On analyse la chaine
+      sKeyword est une chaine = Majuscule(ExtraitChaîne(sRequete,1," "))
+      nPosEspace est un entier = position(sRequete," ")
+      sArg est une chaine
+      si nPosEspace>0 alors
+      	sArg = milieu(sRequete,nPosEspace+1)
+      fin
+      
+      XLOG(<§$0004§>,<§$0005§>+sKeyword)
+      
+      // Traitement de la commande
+      selon sKeyword
+      	cas <§$0006§>
+      		renvoyer :sTraiteCommande_USER(sArg)
+      	cas <§$0007§>
+      	cas <§$0008§>
+      		:m_bSessionEnCours = Faux
+      		xlog(<§$0009§>,<§$000a§>)
+      		renvoyer <§$000b§>
+      	cas <§$000c§>
+      	cas <§$000d§>
+      	cas <§$000e§>
+      		
+      	cas <§$000f§>
+      	cas <§$0010§>
+      	cas <§$0011§>
+      // Commandes optionnels
+      	cas <§$0012§>
+      	cas <§$0013§>
+      	cas <§$0014§>
+      FIN
+      
+      // Les autres commandes sont simplement relayées
+      renvoyer :sRelaiCommande(sKeyword,sArg)
+      
+     type : 458752
+   -
+     name : sTraiteCommande_USER
+     internal_properties : CAAAAAgAAABIWoxd7JyocOJHaIjomEIv8KBNyDsV7XydzFpX/9Gc0AwxLUpCBcdv+xk/yGW62LIpZFTdW/CFk/acbwpdgEjK51n1cWSRaD1p8rJ6mHd7AfMlvJy/TkamhVa/uNM6MxnGyPCmpjc+Np9WL9viXBxYoDsI+/w9QSt1Hh/oAyAZEYlYP9dfsivJv+DQ9ILDB1NQOfjVbQ==
+     procedure_id : 1165139887780566666
+     type_code : 12
+     code : |1+
+      // Syntaxe :
+      //[ <Résultat> = ] sTraiteCommande_USER (<sName> est chaîne)
+      //
+      // Paramètres :
+      //	sName ( chaîne ) : Nom de l'utilisateur
+      // Valeur de retour :
+      // 	Type indéterminé :   
+      
+      Procédure sTraiteCommande_USER( sName est une chaine )
+      
+      // Dans le cas d'un proxy, le nom de l'utilisateur doit être de la forme
+      // <adresse serveur reel>:<nom d'utilisateur>
+      // ou
+      // <nom d'utilisateur>@<adresse serveur reel>
+      
+      nPosSepar est un entier = position(sName,":")
+      si nPosSepar > 0 alors
+      	:m_sServer 	= gauche(sName,nPosSepar-1)
+      	:m_sUser 	= milieu(sName,nPosSepar+1)
+      sinon
+      	nPosSepar 	= position(sName,"@")
+      	:m_sUser 	= gauche(sName,nPosSepar-1)
+      	:m_sServer 	= milieu(sName,nPosSepar+1)
+      fin
+      
+      // On doit se connecter au vrai serveur
+      :m_sNomSocket = :m_sUser+:m_sNomCanal
+      si SocketConnecte(:m_sNomSocket,110,:m_sServer) = faux alors
+      	:m_bSessionEnCours = Faux
+      	renvoyer <§$0017§>
+      FIN
+      
+      // On passe en marqueur final CRLF
+      SocketChangeModeTransmission(:m_sNomSocket,SocketMarqueurFinBuffer,crlf)
+      
+      // On est connecté, on lit la bannière du vrai serveur
+      :m_sBaniere = socketlit(:m_sNomSocket,faux)
+      xlog(<§$0018§>,<§$0019§>+:m_sBaniere)
+      
+      // On lui transmet une commande USER
+      socketecrit(:m_sNomSocket,<§$001a§>+:m_sUser)
+      
+      // Et on relit la réponse que l'on retourne à notre client
+      sReponse est une chaine = SocketLit(:m_sNomSocket,faux)
+      
+      renvoyer sReponse
+     type : 458752
+   -
+     name : sRelaiCommande
+     internal_properties : CAAAAAgAAABouuwGQxwDvsRrGIKm0EpfjgA/dIXDhWLvEErBTWGU2CYNi5qcN4MRfZ27OrMaiFrn9FqlYdZF1fgIZ4j3rBw+/QGP3bJ7DK8bbv213XDAwiJKKTsYN70JeGnmS6gTEAr5BQ1BC/ThTeb9OtbnJd2NZ/hVEsVWWCp0/V4DAHm+GrABENoUBwY0aotT46vIOXVVGdj1TQ==
+     procedure_id : 1165142275782415014
+     type_code : 12
+     code : |1-
+      // Syntaxe :
+      //[ <Résultat> = ] sRelaiCommande (<sCommande> est chaîne, <sArgs> est chaîne)
+      //
+      // Paramètres :
+      //	sCommande ( chaîne ) : Commande à relayer
+      //	sArgs ( chaîne ) : Arguments
+      // Valeur de retour :
+      // 	chaîne :     
+      
+      Procédure sRelaiCommande( sCommande est une chaine , sArgs est une chaine )
+      
+      // On écrit la commande sur la socket du vrai serveur
+      SocketEcrit(:m_sNomSocket,sCommande+" "+sArgs)
+      
+      // On lit et on retourne la réponse
+      SocketChangeModeTransmission(:m_sNomSocket,SocketSansMarqueurFin)
+      sReponseServeur est une chaine
+      sBufferEnPlus est une chaine  = socketlit(:m_sNomSocket,faux)
+      tantque sBufferEnPlus <> ""
+      	sReponseServeur+=sBufferEnPlus
+      	sBufferEnPlus = socketlit(:m_sNomSocket,faux)
+      FIN
+      SocketChangeModeTransmission(:m_sNomSocket,SocketMarqueurFin,crlf)
+      
+      tantque droite(sReponseServeur,taille(crlf))=crlf
+      	sReponseServeur = gauche(sReponseServeur,Taille(sReponseServeur)-taille(crlf))
+      FIN
+      
+      // Dans le cas de la commande RETR, on archive le mail
+      si sCommande=<§$000e§> alors
+      	nMessage est un entier = sArgs
+      	:ArchiveEmail(sReponseServeur,nMessage)
+      FIN
+      
+      // TODO : Brancher ici d'éventuels autres traitements personnalisés (filtrage, classement automatique,
+      // lancement d'applications externes, etc.
+      
+      renvoyer sReponseServeur
+     type : 458752
+   -
+     name : ArchiveEmail
+     internal_properties : CAAAAAgAAADJyZAX4UVJRzCmN2y+AWKRVdILw3hrxlNZI/9PX/Z3tbgYjjGU7N2m7C80MyOx44SQqqfmnH3Af8kuRxQ9Zf0ZrPzt2yTMPFY5zgndNHdll+Fx9Apo8mOIH+fEpJujGsw1yJ/RWzFU6fW9UUiz0IG4ui1NCNE//3aztaEX2qI2/ChlJVs9Ow1CnIAjbxqO23Ms5kOCPGjz6cxsISPUnla7gvDuBjiDs7XOiV17dcByTEVXHsAiXXFycKa2LRwLuVDOVg==
+     procedure_id : 1165240883942482490
+     type_code : 12
+     code : |1-
+      // Syntaxe :
+      //ArchiveEmail (<sContenu> est chaîne, <nMsg> est entier)
+      //
+      // Paramètres :
+      //	sContenu ( chaîne ) : contenu du message à archiver
+      //	nMsg ( entier ) : numéro du message
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure ArchiveEmail(  locale sContenu est une chaine , nMsg est un entier )
+      
+      
+      // Variables locales
+      sLigne 			est une chaine
+      sNomEntete 		est une chaine
+      sContenuEntete 	est une chaine
+      
+      // Pour faire l'archivage, on demande l'UIDL du message au vrai serveur
+      SocketEcrit(:m_sNomSocket,<§$001b§>+nMsg)
+      sUIDL est une chaine = socketlit(:m_sNomSocket,faux)
+      // On coupe l'entête
+      sUIDL = ExtraitChaîne(sUIDL,3," ")
+      
+      nPosRCContenu est un entier = position(sContenu,rc)
+      si nPosRCContenu>0 alors
+      	sContenu = milieu(sContenu,nPosRCContenu+taille(rc))
+      FIN
+      
+      // On ajoute l'enregistrement dans le fichier HF
+      MessageEmail.ServeurPOP 	= :m_sServer
+      MessageEmail.Utilisateur 	= :m_sUser
+      MessageEmail.UIDL 			= sUIDL
+      MessageEmail.ContenuMessage = sContenu
+      
+      // On parcourt le source du message pour extraire quelques entêtes utiles
+      POUR TOUTE CHAINE sLigne DE sContenu SEPAREE PAR RC
+      	
+      	// On extrait le nom de l'entête et son contenu
+      	sNomEntete		= ExtraitChaîne(sLigne,1,":")
+      	sContenuEntete	= milieu(sLigne,taille(sNomEntete)+3)
+      	// En fonction du nom de l'entête
+      	SELON (sNomEntete)
+      		CAS "Subject"
+      			MessageEmail.Sujet = sContenuEntete
+      		CAS "Date"
+      			// Les dates sont de la forme : Thu, 12 Feb 2004 18:34:06 +0100
+      			sExpr est un chaine = "[A-Za-z]+, ([0-9]+ [A-Za-z]+ [0-9]+) ([0-9][0-9]:[0-9][0-9]:[0-9][0-9]) .*"
+      			sDate, sHeure sont des chaines
+      			SI VérifieExpressionRégulière(sContenuEntete,sExpr,sDate,sHeure) ALORS
+      				MessageEmail.Heure = Remplace(sHeure,":","")
+      				MessageEmail.Date = :sConversionDate(sDate)
+      			FIN
+      		CAS "From"
+      			MessageEmail.Expediteur = sContenuEntete
+      		CAS "To"
+      			MessageEmail.Destinataire = sContenuEntete
+      	FIN
+      	
+      FIN
+      
+      // Ajoute le message
+      HAjoute(MessageEmail)
+      si ErreurDétectée alors	XLog(gStylo(iRougeClair)+<§$0021§>,<§$0022§>+HErreurInfo())
+     type : 458752
+   -
+     name : sConversionDate
+     internal_properties : CAAAAAgAAAAiVlq4frVtIkgkWgGrCa8tYQiL5BqjTbtmLkprCLrb3Y93vZ8hOl1SQ4fSRpkjk34iV+CSHJBfHAhxGe8Jz4y9snUhSEYBawd9Y2lxRXtMNXHHX7gdVvHzh3ge4pr7YbR/z5/1wfu2KTlQHzVNREpvaTWfn2F79JzwGWF3a0EfQo+AMj5U7Fw3n2E6EMnAcp65Y+Jns7KpbGPz0OWwVgdjmQAapMs0xg8FKTILJ1/WCE3MCJXL+9wJZnaQaSW8jiDdbvKqGdIi3lfa1YGqr5KfLqoZMDjUxuu9cQdU/n8WSlM2mrJxHmDBcOmHM/p1fdkHIw==
+     procedure_id : 1165477768484613968
+     type_code : 12
+     code : |1-
+      // Syntaxe :
+      //[ <Résultat> = ] sConversionDate (<sDatePOP> est chaîne)
+      //
+      // Paramètres :
+      //	sDatePOP ( chaîne ) : Date au format utilisé par le protocol POP3
+      // Valeur de retour :
+      // 	chaîne : 
+      
+      Procédure sConversionDate( sDatePOP est une chaine )
+      
+      // Les dates sont de la forme JJ MMM AAAA avec le mois en lettres
+      jj est une chaine = ExtraitChaîne(sDatePOP,1," ")
+      mm est une chaine = ExtraitChaîne(sDatePOP,2," ")
+      aaaa est une chaine = ExtraitChaîne(sDatePOP,3," ")
+      
+      selon mm
+      	cas <§$0023§>
+      		mm = "01"
+      	cas <§$0025§>
+      		mm = "02"
+      	cas <§$0027§>
+      		mm = "03"
+      	cas	<§$0029§>
+      		mm = "04"
+      	cas	<§$002b§>
+      		mm = "05"
+      	cas	<§$002d§>
+      		mm = "06"
+      	cas	<§$002f§>
+      		mm = "07"
+      	cas	<§$0031§>
+      		mm = "08"
+      	cas	<§$0033§>
+      		mm = "09"
+      	cas	<§$0035§>
+      		mm = "10"
+      	cas	<§$0037§>
+      		mm = "11"
+      	cas	<§$0039§>
+      		mm = "12"
+      FIN
+      
+      renvoyer aaaa+mm+jj
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x102b66f104c44a1b
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : +OK POP3 WDProxy pret
+     index : 0
+   -
+     text :
+      fr-FR : REQUETE
+     index : 1
+   -
+     text :
+      fr-FR : "Traitement de la requête : "
+     index : 2
+   -
+     text :
+      fr-FR : " "
+     index : 3
+   -
+     text :
+      fr-FR : COMMANDE
+     index : 4
+   -
+     text :
+      fr-FR : "Commande reçue :"
+     index : 5
+   -
+     text :
+      fr-FR : USER
+     index : 6
+   -
+     text :
+      fr-FR : PASS
+     index : 7
+   -
+     text :
+      fr-FR : QUIT
+     index : 8
+   -
+     text :
+      fr-FR : THREAD
+     index : 9
+   -
+     text :
+      fr-FR : Traitement du quit
+     index : 10
+   -
+     text :
+      fr-FR : +OK Au revoir
+     index : 11
+   -
+     text :
+      fr-FR : STAT
+     index : 12
+   -
+     text :
+      fr-FR : LIST
+     index : 13
+   -
+     text :
+      fr-FR : RETR
+     index : 14
+   -
+     text :
+      fr-FR : DELE
+     index : 15
+   -
+     text :
+      fr-FR : NOOP
+     index : 16
+   -
+     text :
+      fr-FR : RSET
+     index : 17
+   -
+     text :
+      fr-FR : APOP
+     index : 18
+   -
+     text :
+      fr-FR : TOP
+     index : 19
+   -
+     text :
+      fr-FR : UIDL
+     index : 20
+   -
+     text :
+      fr-FR : ":"
+     index : 21
+   -
+     text :
+      fr-FR : "@"
+     index : 22
+   -
+     text :
+      fr-FR : "-ERR Echec de la connexion au serveur POP"
+     index : 23
+   -
+     text :
+      fr-FR : POP3
+     index : 24
+   -
+     text :
+      fr-FR : "Bannière reçue : "
+     index : 25
+   -
+     text :
+      fr-FR : "USER "
+     index : 26
+   -
+     text :
+      fr-FR : "UIDL "
+     index : 27
+   -
+     text :
+      fr-FR : Subject
+     index : 28
+   -
+     text :
+      fr-FR : Date
+     index : 29
+   -
+     text :
+      fr-FR : "[A-Za-z]+, ([0-9]+ [A-Za-z]+ [0-9]+) ([0-9][0-9]:[0-9][0-9]:[0-9][0-9]) .*"
+     index : 30
+   -
+     text :
+      fr-FR : From
+     index : 31
+   -
+     text :
+      fr-FR : To
+     index : 32
+   -
+     text :
+      fr-FR : ERREUR
+     index : 33
+   -
+     text :
+      fr-FR : "Erreur lors de l'archivage d'un email : "
+     index : 34
+   -
+     text :
+      fr-FR : Jan
+     index : 35
+   -
+     text :
+      fr-FR : "01"
+     index : 36
+   -
+     text :
+      fr-FR : Feb
+     index : 37
+   -
+     text :
+      fr-FR : "02"
+     index : 38
+   -
+     text :
+      fr-FR : Mar
+     index : 39
+   -
+     text :
+      fr-FR : "03"
+     index : 40
+   -
+     text :
+      fr-FR : Apr
+     index : 41
+   -
+     text :
+      fr-FR : "04"
+     index : 42
+   -
+     text :
+      fr-FR : May
+     index : 43
+   -
+     text :
+      fr-FR : "05"
+     index : 44
+   -
+     text :
+      fr-FR : Jun
+     index : 45
+   -
+     text :
+      fr-FR : "06"
+     index : 46
+   -
+     text :
+      fr-FR : Jul
+     index : 47
+   -
+     text :
+      fr-FR : "07"
+     index : 48
+   -
+     text :
+      fr-FR : Aug
+     index : 49
+   -
+     text :
+      fr-FR : "08"
+     index : 50
+   -
+     text :
+      fr-FR : Sep
+     index : 51
+   -
+     text :
+      fr-FR : "09"
+     index : 52
+   -
+     text :
+      fr-FR : Oct
+     index : 53
+   -
+     text :
+      fr-FR : "10"
+     index : 54
+   -
+     text :
+      fr-FR : Nov
+     index : 55
+   -
+     text :
+      fr-FR : "11"
+     index : 56
+   -
+     text :
+      fr-FR : Dec
+     index : 57
+   -
+     text :
+      fr-FR : "12"
+     index : 58
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

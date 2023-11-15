@@ -1,0 +1,214 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD ProxyPOP3
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD ProxyPOP3
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD ProxyPOP3
+    internal_properties : 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
+    configuration_id : 376032401424819349
+    type : 1
+    generation_name : WD ProxyPOP3.exe
+    version :
+     major_version : 21
+     internal_generation_version : 2
+     autoincrement_version : false
+    icon_filename : .\IconeProxy.ico
+    language : 1
+ elements :
+  identifier : 0x4acda31d0029ecfd
+  elements :
+   -
+     name : FEN_ParamCompte
+     identifier : 0x4030aaf50000cb20
+     internal_properties : CAAAAAgAAACOlOY6Cbb+MTQYdOmxqZaL/L27s3YqOQSKmF1VzTNZ78Exn07aJufJVcE7hQ3DvzGbmw==
+     physical_name : .\ParamCompteOE.wdw
+     type : 2
+   -
+     name : Debuggage
+     identifier : 0x402bb93c0007bb04
+     internal_properties : CAAAAAgAAACV8f0hnvuz7PG17cau99lax6AC0gS02Pr8lPW9ft25R6Ub84qdG9Iywn54QMAwyDiAgA==
+     physical_name : .\Debuggage.wdg
+     type : 7
+   -
+     name : REQ_TailleEmailSurPeriode
+     identifier : 0x403b0fb70000e7ec
+     internal_properties : CAAAAAgAAAD/W9fL+KUNHif3I7jw6tNANXBMrJeMDlRSqjiZ6qxu+vbq3JGbZRj4hLAqlh7SriLqag==
+     physical_name : .\REQ_TailleEmailSurPeriode.WDR
+     type : 5
+   -
+     name : TEST_Donnees_de_test
+     identifier : 0x467fdc6d001f0c45
+     internal_properties : CAAAAAgAAADfuzfr2IWtvgcXQ1jQS3dM0Y50ZEbamnCiqbQhpnklM40H6/I7hTiYZNDKNv7yjgLKSg==
+     physical_name : .\TEST_Donnees_de_test.wxt
+     type : 17
+   -
+     name : TEST_DetailEmail
+     identifier : 0x467fdc6e00200f22
+     internal_properties : CAAAAAgAAADNSSV5RjN7pImd5f62oqWO68oSynLWokhGpJ04s0zOWlJCqEXVI9o62kawCIh4APDYWA==
+     physical_name : .\TEST_DetailEmail.wxt
+     type : 17
+   -
+     name : CProxyPOP3
+     identifier : 0x402bb93000068c27
+     internal_properties : CAAAAAgAAABIxrBsWwAoMwoacuuzqaSVvoPtTQxToHiiswJszUPJL5V5s0rQKOXHV8M9u3t1DYNN1Q==
+     physical_name : .\CProxyPOP3.wdc
+     type : 4
+   -
+     name : Procedures globales de WD ProxyPOP3
+     identifier : 0x402b91590000ee3e
+     internal_properties : CAAAAAgAAADZtYGFIh8XGD3xWVLKGclC87A+ZmikACWiRTpbSPefAcMt4ZyBfz6efroknGScZFS8RA==
+     physical_name : .\Procedures globales de WD ProxyPOP3.wdg
+     type : 7
+   -
+     name : REQ_CompteEmailSurPeriode
+     identifier : 0x403a450200001d45
+     internal_properties : CAAAAAgAAAAT70tfbNlRCiPjX1TcTGPISSgAmKe83GNSelZ7gBb83DykagMviUSkcKwW4qJeGo52/g==
+     physical_name : .\REQ_CompteEmailSurPeriode.WDR
+     type : 5
+   -
+     name : TEST_Principale
+     identifier : 0x467fdc4d001e8d18
+     internal_properties : CAAAAAgAAAAzD2u/jPmx6sPDPzR8bU+UtYYAAM56SmRaq7LbTPMjPYtxuSQP6aQEkIx2QsI+Oq4WHg==
+     physical_name : .\TEST_Principale.wxt
+     type : 17
+   -
+     name : OptionGlobal
+     identifier : 0x402cdfc000002530
+     internal_properties : CAAAAAgAAAD7VyNnRAEpMgsbZ3w0Nif8ifTQsJTwSZCG1A2IzyByjnpmoM1XoVy8WMQ+unp2AvbeZg==
+     physical_name : .\OptionGlobal.wdg
+     type : 7
+   -
+     name : FEN_Donnees_de_test
+     identifier : 0x403a1f3100016496
+     internal_properties : CAAAAAgAAAAUcny4B3w0N55uNi9HYkwlphWNhSa8NJlKBHeokICctByGSiMM9KkL61dBv0e5QbcBAQ==
+     physical_name : .\FEN_Donnees_de_test.wdw
+     type : 2
+   -
+     name : FEN_DetailEmail
+     identifier : 0x403b12770001a670
+     internal_properties : CAAAAAgAAABj31tPfCmBmrNzrwRssJNgaVhgKKkwiOpCbukpFgoIIOjIBlff2ZR0ADymEpJOKp5m7g==
+     physical_name : .\FEN_DetailEmail.wdw
+     type : 2
+   -
+     name : FEN_StatistiquesProxy
+     identifier : 0x403a1e280000593b
+     internal_properties : CAAAAAgAAADySCp+zbryLQAEcPW98k6TlKcz+0i2smyK3EqUoGC0ZJi2dmfOKuPFUc03gQH/++3XXw==
+     physical_name : .\FEN_StatistiquesProxy.wdw
+     type : 2
+   -
+     name : FEN_Principale
+     identifier : 0x402bbadd000917c4
+     internal_properties : CAAAAAgAAACloY2RLkvj/EFFvbb+NIlS02ZyOj7Ht1TzDnB/wZ70JNh0tqeNayKCEg6IcDCgWEiwsA==
+     physical_name : .\FEN_Principale.wdw
+     type : 2
+   -
+     name : Serveur
+     identifier : 0x402bb9410008d010
+     internal_properties : CAAAAAgAAACQbsjU04iguxISenMretApusmBqUiV9SCdH73/vpCEtETeEttYoF2/X9vFM/PtlQv1fQ==
+     physical_name : .\Serveur.wdg
+     type : 7
+   -
+     name : TEST_Procedures globales de WD ProxyPOP3
+     identifier : 0x4296fcad00721d40
+     internal_properties : CAAAAAgAAABJxbFVUg8nyO2hCTI6X3Xaa3R2VuwYiMqC0QiN3iH9+8kXK2IBP+7OrmpUrHRsFIRM1A==
+     physical_name : .\TEST_Procedures globales de WD ProxyPOP3.wxt
+     type : 17
+  other_elements :
+   -
+     physical_name : .\description.rtf
+   -
+     physical_name : .\Description.gif
+   -
+     physical_name : .\IconeProxy.ico
+  analysis : .\WD ProxyPOP3.ana\WD ProxyPOP3.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAABUGSZWs4U/2OOcZkq7cLJ9MF45fE8Q6NzE1P9BAGrkTWwAJZSA5KKCu0PokVZiurvnJ7BnYjE7P1m5hrIXtun1av/Ah0L+0HflmmKPId9dkZc+BDCl0jfsRq7SNU7CCziheB+XbvN0QgkuO07ERLN8l2bLFL+uxEuppqmBsgca4nCQCn/kn6DED7VlW1y3qiBZjQ1Y4yzWyTNpaQua+wW9YgOiP1nVVNft0/i3dDpn45eA4dfgPZTPDUsaPpSvTv9FbZ5KcLI0oj5qs8ZnZiRD097FRqMo
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      extern "winconst.wl"
+      
+      // Initialisation du gestionnaire d'option
+      InitOption("HKEY_CURRENT_USER\Software\PC SOFT\WD ProxyPOP3")
+      
+      // Déclaration des options par défaut
+      DeclareOption("sFIC_LOG", SysRep(srMesDocuments) + ["\"] + <§@00000000000000000002§>)
+      DeclareOption("bLOG_FIXE", faux)
+      
+      si EnModeTestAutomatique() ALORS
+      	RegistreSupprimeClé(optionglobal.gsCleOption)
+      	DeclareOption("sFIC_LOG", SysRep(srMesDocuments) + ["\"] + <§@00000000000000000002§>)
+      	DeclareOption("bLOG_FIXE", vrai)
+      FIN
+      
+      // Relecture des options précédemment sauvées
+      ChargeOption()
+      
+      // Création ou ouverture du fichier d'archivage
+      HCréationSiInexistant(MessageEmail)
+     type : 196608
+   -
+     code : |1-
+      
+      // Sauvegarde des paramètres globaux
+      SauveOption()
+     type : 196610
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD ProxyPOP3
+     identifier : 0x4acda31d003bedc8
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : HKEY_CURRENT_USER\Software\PC SOFT\WD ProxyPOP3
+     index : 0
+   -
+     text :
+      fr-FR : sFIC_LOG
+     index : 1
+   -
+     text :
+      fr-FR : Journal de WD ProxyPOP3.txt
+     index : 2
+   -
+     text :
+      fr-FR : bLOG_FIXE
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

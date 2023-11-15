@@ -1,0 +1,256 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Serveur
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x3e9fbcdb38ae309c
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAw6QpWPxvvTsqJEkDWnM/qNLeR8VNNAtCA362Di0eJjMPdwZsb5VA990zW46gwk1T037ohqO/DeR53KkNq3MEAU89/U2LZfyY5lTifU68EKlE57Q4et1n650a0YAHDVSut8eOXz1PY4kWYF/Abf9j3wIOSPsYZBkLLw+I5CYKc8tgVHnG/jlyN3WMNzFK1jnWtE8sthnNjhO4Lj2UwKaJIusTjG1iHx9bCEJlj9px1h3WzdGWBGoRwlDJuxYEY+KetyyGacYftdtUyJbhhc54Q/nIGg6bZXpyYE26uBBuTwXK+oNmzQ3PnCWM2nzLMHy0s
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      global
+      	gsIPEcoute est une chaine = NetAdresseIP()
+      	gnPortEcoute est un entier = 8080
+      	gnEtat est un entier = CN_ETAT_ARRETE
+      
+      CONSTANTE
+      	CN_ETAT_DEMARRE = 1
+      	CN_ETAT_ARRETE = 0
+      FIN
+      
+      ThreadMode(threadSectionCritique)
+     type : 720896
+  procedures :
+   -
+     name : sGetAdresseEcoute
+     procedure_id : 4512533516128617842
+     type_code : 15
+     code : |1+
+      Procédure sGetAdresseEcoute()
+      
+      renvoyer gsIPEcoute
+     type : 458752
+   -
+     name : SetAdresseEcoute
+     procedure_id : 4512533676258006135
+     type_code : 15
+     code : |1-
+      Procédure SetAdresseEcoute(LOCAL sIP est une chaine)
+      
+      xlog(<§@3e9fbcd617f71ca80000§>, <§@3e9fbcd617f71ca80001§> + sIP)
+      gsIPEcoute = sIP
+     type : 458752
+   -
+     name : SetPortEcoute
+     procedure_id : 4512533710671557430
+     type_code : 15
+     code : |1+
+      Procédure SetPortEcoute(LOCAL nPort est un entier)
+      
+      xlog(<§@3e9fbcd617f71ca80000§>, <§@3e9fbcd617f71ca80002§> + nPort)
+      gnPortEcoute = nPort
+     type : 458752
+   -
+     name : nGetEtat
+     internal_properties : CAAAAAgAAADoQzRP5Z4auVRka6n2iPMqBTIe8mYlgUZusJDJOU6ih7Dtu0r5SAQ5HkbSELZUoZr+DoZbnqQxw74aMebsusx9dcawpFDs265kDC59hZKZwvfkxJL2W+B/DaI9jag1rYg04/RonT7CfbEsZ9hZ0Tylquj+S4XOqc6Bfp2pzibmF4NdhdfU9yaDeRa4ACVhBJxeh2UYC4A=
+     procedure_id : 4512534340910314280
+     type_code : 15
+     code : |1-
+      Procédure nGetEtat()
+      
+      sEtat est une chaine = (gnEtat = CN_ETAT_DEMARRE) ? <§@3e9fbcd617f71ca80003§> Sinon <§@3e9fbcd617f71ca80013§>
+      xlog(<§@3e9fbcd617f71ca80000§>,<§@3e9fbcd617f71ca80004§> + sEtat)
+      renvoyer gnEtat
+     type : 458752
+   -
+     name : DemarrerServeur
+     internal_properties : CAAAAAgAAACyPf5YyN7aOZQka2m2CHMqRTIesmalAYbuMFDJuQ5ixzAt+0o5iMS53obSUHbUIRo+DgYbniSxAz6aceZseoy99YbwpJAsm64kTK6d5TK5oldEJPJW+8BfLUIdLQjVTWgUw1TIfV4iXVHMx3i5cVwFisjeq2XuiS4hnn3JLsYGd+M95be0F4ZjGbYYIIUBJPw+DC/OQUo=
+     procedure_id : 4512536760140532270
+     type_code : 15
+     code : |1-
+      Procédure DemarrerServeur()
+      
+      gnEtat = CN_ETAT_DEMARRE
+      XLog(<§@3e9fbcd617f71ca80000§>, <§@3e9fbcd617f71ca80005§>)
+      ThreadExécute(<§@3e9fbcd617f71ca80006§>, threadNormal, ProcThreadEcoute)
+     type : 458752
+   -
+     name : ArreterServeur
+     internal_properties : CAAAAAgAAAAgS8wabyTCUcqK55WKdstitxRUzArTJT4wWpS1tdzKKwZT8YQBUnD9YNg6uI4WtY4s3Ly1No41k5gU7a4kJEz9t0i6oiwKr2rGnuoIKvsUR9QpB6+bvIGeagdinJFyzPGBYPd9wjcjXK5pRAMCPq/S61nt5P4rLtWeW1qU039toJxmkHQ9vOM+OlcZ/zJ6A52rym0AE7g=
+     procedure_id : 4512536789689935508
+     type_code : 15
+     code : |1+
+      Procédure ArreterServeur()
+      
+      gnEtat = CN_ETAT_ARRETE
+      tantque ThreadEtat(<§@3e9fbcd617f71ca80006§>) <> threadInexistant	
+      	xlog(<§@3e9fbcd617f71ca80000§>, <§@3e9fbcd617f71ca80007§>)
+      	Multitache(-100)
+      FIN
+      
+     type : 458752
+   -
+     name : ProcThreadEcoute
+     internal_properties : CAAAAAgAAAC7iVmC59Iqtr3YDc37KgYNu5l0YKc+BlPiZoPqj6SkEsBsKXSPDu0a9f0eeFz4wTyQvOzcP4Xbb6T8UR1Bnw3aTaQmaB5g9WyoS/A0e7TBdYu6+/CuBSMhWPYUzVHI6e1250rteG3Eb3J+/BCIKOys0NymKABn22BwPGLPZQ8UaI7nPVvm4D2ltpWDDPdfajjt2ChUqb4BBnePOu2ZQGU2GY70cN5SqAOry4FQUb6yES+EqA==
+     procedure_id : 4512537510620640591
+     type_code : 15
+     code : |1-
+      Procédure ProcThreadEcoute()
+      
+      // Création de la socket d'écoute
+      si pas socketCrée(<§@3e9fbcd617f71ca80008§>, gnPortEcoute, gsIPEcoute) alors
+      	xlog(<§@3e9fbcd617f71ca80009§>, <§@3e9fbcd617f71ca8000a§>)
+      	gnetat = CN_ETAT_ARRETE
+      	retour
+      FIN
+      
+      // Tant qu'on est en état démarré
+      tantque gnEtat = CN_ETAT_DEMARRE
+      	XLog("INFO","Attente Connexion"+gnEtat)
+      	si SocketAttendConnexion(<§@3e9fbcd617f71ca80008§>, 1000) alors
+      		sCanal est une chaine = SocketAccepte(<§@3e9fbcd617f71ca80008§>)
+      		ThreadExécute(<§@3e9fbcd617f71ca8000b§> + sCanal, threadNormal, <§@3e9fbcd617f71ca8000c§>, sCanal)
+      	FIN
+      FIN
+      
+      // Destruction de la socket
+      SocketFerme(<§@3e9fbcd617f71ca80008§>)
+     type : 458752
+   -
+     name : ProcThreadRequete
+     internal_properties : CAAAAAgAAABccwEu8rKT5qAoP0P2JtFKybjlg/Wz032yuDlXx+Cq3FIGCmzslhZJPqdYZ7w/Df+Vwh4eTLKpIGQ9nODcimBUey4vsZ4IXrqV4uJPJyhVs/7cfEMcUgG6paQENar6Hkv3oqg334E1ip/kKgb1oqXAX0loIJFbNvnzUtRLVGvdZFEvBkuLWYyV/POAsTS7Ok3T+D2t87ZFS/5Pt28gnjrkVs7Rpg==
+     procedure_id : 4512544920090675086
+     type_code : 15
+     code : |1-
+      Procédure ProcThreadRequete(LOCAL sNomCanal est une chaine)
+      
+      XLOG(<§@3e9fbcd617f71ca8000d§>,<§@3e9fbcd617f71ca8000e§> + sNomCanal)
+      bSessionEnCours est un booleen = vrai
+      
+      // On alloue une structure pour le contexte de la session
+      clSession est un objet CProxyPOP3(sNomCanal)
+      
+      // La requête est terminée par un RC
+      SocketChangeModeTransmission(sNomCanal, SocketMarqueurFin, crlf)
+      
+      // Bannière d'accueil
+      socketecrit(sNomCanal, clSession:sBanniere())
+      
+      // Traitement d'une session
+      tantque clSession:m_bSessionEnCours et gnEtat = CN_ETAT_DEMARRE
+      	// On lit la requête
+      	sRequete est une chaine = socketlit(sNomCanal, faux)
+      	XLOG(<§@3e9fbcd617f71ca8000d§>, <§@3e9fbcd617f71ca8000f§> + sRequete)
+      	
+      	// Si on a reçu une requête
+      	si sRequete <> "" alors
+      		// On analyse la requête et on y répond
+      		sReponse est une chaine = clSession:sTraiteRequete(sRequete)
+      		socketecrit(sNomCanal, sReponse)
+      	fin
+      fin
+      
+      xlog(<§@3e9fbcd617f71ca80010§>, <§@3e9fbcd617f71ca80011§>)
+      // On referme le canal
+      socketferme(sNomCanal)
+      xlog(<§@3e9fbcd617f71ca8000d§>, <§@3e9fbcd617f71ca80012§> + sNomCanal)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3e9fbcd617f71ca8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : GENERAL
+     index : 0
+   -
+     text :
+      fr-FR : "Changement de l'adresse d'écoute : "
+     index : 1
+   -
+     text :
+      fr-FR : "Changement du port d'écoute : "
+     index : 2
+   -
+     text :
+      fr-FR : Démarré
+     index : 3
+   -
+     text :
+      fr-FR : "Etat du proxy : "
+     index : 4
+   -
+     text :
+      fr-FR : Début du thread d'écoute
+     index : 5
+   -
+     text :
+      fr-FR : ThreadEcoute
+     index : 6
+   -
+     text :
+      fr-FR : Attente de l'arrêt du thread d'écoute
+     index : 7
+   -
+     text :
+      fr-FR : SocketEcoute
+     index : 8
+   -
+     text :
+      fr-FR : ERREUR
+     index : 9
+   -
+     text :
+      fr-FR : Echec création socket d'écoute
+     index : 10
+   -
+     text :
+      fr-FR : ThreadRequete
+     index : 11
+   -
+     text :
+      fr-FR : ProcThreadRequete
+     index : 12
+   -
+     text :
+      fr-FR : REQUETE
+     index : 13
+   -
+     text :
+      fr-FR : "Début d'un thread de traitement de requête - Canal : "
+     index : 14
+   -
+     text :
+      fr-FR : "Requête : "
+     index : 15
+   -
+     text :
+      fr-FR : THREAD
+     index : 16
+   -
+     text :
+      fr-FR : Fermeture du canal de traitement de la requête
+     index : 17
+   -
+     text :
+      fr-FR : "Fin du thread de traitement de requête pour le canal "
+     index : 18
+   -
+     text :
+      fr-FR : Arrêté
+     index : 19
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

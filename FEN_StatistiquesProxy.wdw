@@ -1,0 +1,956 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_StatistiquesProxy
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_StatistiquesProxy
+ identifier : 0x24a152fa17216cea
+ internal_properties : CAAAAAgAAAC2UfyTXo3Dr3RfKc05Q69Y0DiZh21bbkGSOeniPZaFbqWzX2EJBGIxDDg2kTKJ6tpeAic/94FTH1a3E1al6gx+ACtqH0jXMyjU15cDvm2ArnRJ+Ul6mzmrUeeH3pZPDAfdET4zsfvItieM02ezlezp9zmE1EmqjVsHiziMT9sxTfKlhBDf1dQtY2DAALybJvnkXHd4ooRTkJEDgufmjriOiAg+mtGGwEQK1Hb1YsK7YyW7AK97dEByhXJfBmjddBKJT9O9cZ/D1Q7oUBaHGcTeKh73XAFOSExKpwKYUntSlJgsYs/sU4v+Gz9LQOpRh+JiYpkbAt4gnH3oioZ5yHsX229wk+0szeIDN0acfmF74dM0i1rQkUH4WGu9Ej2QAjGVt7euIh2TKO1vVCSKwdzTiRG4ffIVFofoDnqp2icoQECsXn26lf7s26A2XqxsO4nhX5krsKlnK0724A8fRiJbjreDS4MvPQByp7wD9EcPYXlXre+6Oq4V/bEWu2SuE0lLmOqWQ1rRKPe70SjEe1S86Aen1j+o+dvxl7cMPBvOd2zz/fitHgwUnbqCfa6DzEOW7OABVbDxMPnj1aipYniyTuggJkNk3lPHwxrxMT+amXkXbxqJinbWRTeErQeXVKsUboQRCbnXG/RyBV92FP25y5As/de+n2t5tVO7ZEAr0cSEzrGe5rrt7pDB423YCpPN4L7kTGX5+4gD8Ur783ZfGPTJRDQJj4jBpoVErE8PYMGVOfl8/XZl8ommR4exdkl0/sskkbZ/yHS+bE+9NxJ3tlCtWry1uy0GX5c=
+ properties :
+  width : 516
+  height : 500
+  widthClient : 514
+  heightClient : 468
+ controls :
+  -
+    name : BTN_Nombre_d_emails_par_jour
+    identifier : 0x24a152fa17326cea
+    internal_properties : CAAAAAgAAAAzRbvoyF9IO6Ms+qp2JXnWb0oGO1DFi7MRMuDUFzmm0OG3OhCMteOQMYdN9kGCfx/vuMYbqFKIIzgG1Bs05jG3vvtECANfmux6odirteZMC2qobgBgDNybm+cmNFspsMtjbKRFAy5LXg/PN46b4Wyk9/7g2FBIQrwafjpc1UCgfH40aIsLjivFXWHuDllHuTJoD+PEgXOYwr+rMgbKJU78tbjdqSatJV9AZnqpPX3aU/YiL4WKULvrOLtxS2cKRfTBkibdyAovukuIZiE1Ug5WHPhRUgbaI2f73Vs+9pJW2pVwuZKTblMIYT2M8vip7wjdXFnUy1eDpe6tfB6Xf4PklffWiIx+GCwM0hFJft4feC2z4vQiubIhDRTwrhc6fy+60rCS1uhcrS1gHwTSr08JjYfPkxBXMwh1pyS0L68dqzK0l5gbmXU2c0cSvCFK6jQcyEU2kSiiH1dlJQnpcPcIUua9tqjKQ4mlwkzjEaqx3HoVJjP1af9fWHJJNX271zQIwFh7Hb460N3owHaAa5BQ2sSx39hRBCW2bsiKbzVTHGKs2nmLMEAdyuhT39STc2eVPRj9JvUPePV+azpuVcP2ptWSrkF6eImF32T+Vphh9KATAXO+c6k6ksyfJ5x8sRhSEqflA3NNuhWrdO+hvz6TK3ucmPfnsXbskcJNrwIMBIqGWTI2oEFaPckMS9cWw+hdguACsTnBiPAzwjP+p51rSagTF25nGdjRECXllDm6/FoVub5nemICrs83aDqYwGIsl4nT6J0iMtrhbO4f6XmllstAK5GduMsX7HWWPI4hyWvFHTazJEBKgfrpSzoYLo/1fkdGtfE+VZ0OIwGGlsOjKhrK1EDP92Ca5nEF0+rrdt9N+eZ+UuBL2m4G1jpTMKaiJAkXRcRZ+V3WyZupLPs6aF/gx6f1O3wriO0JcWaYpM+WzIXO6jaIiu/R+todK+15SpsCGcIscOPIF9ep8JJSm85BIlaN3cTX4cn+FosurY9CW9gsVQ4MP5t6TKg=
+    properties :
+     x : 13
+     y : 99
+     width : 236
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABDczCoAHjAOrcvP9E4S8hwUaaQOEkvV7inYMprczXqdluNjauVKztAXI4kbNfZcXn3gNAJQJMkH5OqTkYdKiA2TsBeEttyT4rwIY3sHsolC8VqG01ANGUYtNlHHfwkOwvH2YxDGqKxisTnFkGSa7mnvNIgeMtWBwuGow2okzK02rWtRQzdhSoHVF4wmCwgbK8=
+        code : |1-
+         nIndice est un entier
+         sNomGraphe est une chaine
+         
+         sNomGraphe = <§$0000§>
+         
+         // Création du graphe
+         grCrée(sNomGraphe, grHisto)
+         // Destination du graphe
+         grDestinationChamp(sNomGraphe, IMG_ImageStat)
+         
+         // Titre du graphe
+         grTitre(sNomGraphe, <§$0001§>)
+         
+         // Titre de l'axe des abscisses
+         grTitreAxe(sNomGraphe, <§$0002§>, grAbscisse)
+         
+         // Titre de l'axe des ordonnées
+         grTitreAxe(sNomGraphe, <§$0003§>, grOrdonnée)
+         
+         sMaPolice est une police
+         // Création de la police
+         sMaPolice = PoliceCrée(<§$0004§>, 10, iNormal)
+         // Police des étiquettes
+         grPoliceEtiquette(sNomGraphe, sMaPolice)
+         // Police de la légende
+         grPoliceLégende(sNomGraphe, sMaPolice)
+         // Police du titre du graphe
+         grPoliceTitre(sNomGraphe, sMaPolice)
+         // Police du titre des axes
+         grPoliceTitreAxe(sNomGraphe, sMaPolice)
+         
+         // Quadrillage horizontal
+         grQuadrillage(sNomGraphe, Vrai, grAbscisse)
+         
+         // Affichage des valeurs
+         grLibellé(sNomGraphe, grAfficheValeur, Vrai)
+         
+         // Ajout des données
+         sDateDebut est une date = SC_SélectionPériode.SAI_DateDébut
+         sDateFin est une date = SC_SélectionPériode.SAI_DateFin
+         
+         // Initialise la requête
+         REQ_CompteEmailSurPeriode.sDateDebut = sDateDebut
+         REQ_CompteEmailSurPeriode.sDatefin = sDateFin
+         // Exécute la requête
+         HExécuteRequête(REQ_CompteEmailSurPeriode)
+         
+         nIndice = 1
+         // Parcours des résultats
+         pour TOUT REQ_CompteEmailSurPeriode 
+         	
+         	grAjouteDonnée(sNomGraphe, 1, REQ_CompteEmailSurPeriode.Comptage_1)
+         	grEtiquetteCatégorie(sNomGraphe, nIndice, DateVersChaine(REQ_CompteEmailSurPeriode.Date))	
+         	
+         	nIndice++
+         FIN
+         
+         HAnnuleDéclaration(REQ_CompteEmailSurPeriode)
+         
+         // Dessin du graphe
+         grDessine(sNomGraphe)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Quantité_de_données_par_jour
+    identifier : 0x24a152fa17336cea
+    internal_properties : CAAAAAgAAAA8zUjlWo/VDu4VkMb4d9aYHddUZFIGQbOoCn7Buo3QdWPJ8blX0z1LsZ3n9EWou3zmsY03RX/Q0hV4Ne0skFYy7owiE2mvYzvHngC2dhgOaSGXJJxbx0OugNm+FlDoDLV1/8ICZFCIKxvM7Tj20REt2gOKHu9iMKr4vYfC0ytEGTBy+ITekhfQoIOvZQ2Xqjvp6MmZSML5sgJZWJlFpgOyN8nzPoq9x0nsnhG6Pplpm9aq7kRzICfgpwHLx8uJxRTakXTx6o4KfjETLK96ifmniSUMwMQT47BnLkQTOPO23QgRJP4hfo/Qqr9OmdVPQrxoxnV+Xueoqcmx2Q9iWxieJuSaXnfvHWtOerO4/o92/lq57Hg9YwSvUflR5XutrUqxiOsH9G5/EFJsvDk7Ot2TxQZ0NMtBTUcsExpadOv8/PClzEqgE9N6szE+Vx9xGFez3YqSSJVPy2Y8NMiN9Xj741iHvkotuL8xPxLhzJ9T0JawHsgSWQgUlNV1NO8LZL6tX1qgSGkw7ZowXpQSu8eiLks4jcYN8uLl9n2Oiyur1Wn6zIKDznVDXSjUN3e+/B+2PgzwWwwsPpQ+JWtTIHXFCXDmMfXzRFKrmXzSp7IA/56PaYvF7TGH+WdRkIykeu2Jab0VlgtTy5k89xqx6LDCdB9cJgVKLNfS0zptVUdIcqTPCiYp6oC0oPtby9DZLJWwd4FvfvlYnO8lSCK92CqkhNuqBFRx9nrgzoaJLw+5n75QuGxx1qnJmoJX1J+nZSbcZWehRSPy+dqlXVQaledwNpW2ujf0s1G04byv0uTIButhQs6/MZ9Ec0bsdrSg899u+XRowN9gtfaPDsA1cblQu+Xd+MPOGJNL6qH00/z3etZHnV1kcLOG8v16rPMe1C4IgfMRxETVE2NckAjbojuRxJpUCytGvjDLd8jYiIXIRBD/xB35Q3C1RVgx8fwCQTppOaJCydTa740hlUx2FqZvA5PdOrvQ
+    properties :
+     x : 263
+     y : 99
+     width : 236
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADBs9eqDZaill9sD2q8R6j5m60cbOhNAxM36nu4+NXPJ8HkVuDrCNl9+EMDBJCe9e5/CjpwEHRekBIZnHEsBPJQOS3QJ0GgNBQ4etbAInZMVtdVJA9WjyKTxKQxiEO1C/CRsZMNzkMinjkMPWY=
+        code : |1+
+         nIndice est un entier
+         sNomGraphe est une chaine
+         sMaPolice est une police
+         sDateDebut est une date = SC_SélectionPériode.SAI_DateDébut
+         sDateFin est une date = SC_SélectionPériode.SAI_DateFin
+         
+         sNomGraphe = <§$0000§>
+         
+         // Création du graphe
+         grCrée(sNomGraphe, grHisto)
+         // Destination du graphe
+         grDestinationChamp(sNomGraphe, IMG_ImageStat)
+         
+         // Titre du graphe
+         grTitre(sNomGraphe, <§$0005§>)
+         
+         // Titre de l'axe des abscisses
+         grTitreAxe(sNomGraphe, <§$0002§>, grAbscisse)
+         
+         // Titre de l'axe des ordonnées
+         grTitreAxe(sNomGraphe, <§$0006§>, grOrdonnée)
+         
+         
+         // Création de la police
+         sMaPolice = PoliceCrée("Tahoma", 10, iNormal)
+         // Police des étiquettes
+         grPoliceEtiquette(sNomGraphe, sMaPolice)
+         // Police de la légende
+         grPoliceLégende(sNomGraphe, sMaPolice)
+         // Police du titre du graphe
+         grPoliceTitre(sNomGraphe, sMaPolice)
+         // Police du titre des axes
+         grPoliceTitreAxe(sNomGraphe, sMaPolice)
+         
+         // Quadrillage horizontal
+         grQuadrillage(sNomGraphe, Vrai, grAbscisse)
+         
+         // Affichage des valeurs
+         grLibellé(sNomGraphe, grAfficheValeur, Vrai)
+         
+         // Ajout des données
+         
+         // Initialise la requête
+         REQ_TailleEmailSurPeriode.sDateDebut = sDateDebut
+         REQ_TailleEmailSurPeriode.sDatefin = sDateFin
+         // Exécute la requête
+         HExécuteRequête(REQ_TailleEmailSurPeriode)
+         // Parcours des résultats
+         pour TOUT REQ_TailleEmailSurPeriode 
+         	grAjouteDonnée(sNomGraphe, 1, REQ_TailleEmailSurPeriode.TailleEmail)
+         	grEtiquetteCatégorie(sNomGraphe, nIndice, DateVersChaine(REQ_TailleEmailSurPeriode.Date))
+         	nIndice++
+         	
+         FIN
+         
+         HAnnuleDéclaration(REQ_TailleEmailSurPeriode)
+         
+         // Dessin du graphe
+         grDessine(sNomGraphe)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Etape1
+    identifier : 0x24a152fa17316cea
+    internal_properties : CAAAAAgAAAC3PHWmyGpiUSnItaiy4wlRW6SE9lQk6FIDhwL9ia8KJVxR9NtdOPg+C720i5c/R0ilUcJnp0YCd7H5QFEAs8JPFzFKnPLLyT+Sma1/GGcU4vpFH31KC6iOXLBBSkYKe2s8B0Lov2iDCy6zAvUVMJlpbaQmhXBFdwV74TyPlzJkCWvqnNdXZtcn30GR4rSNfyvlqSVAMPP83pSjMq+NG7S+D+1aLbAwDYesvNsa7rcL7CEZgs0sYLL+ZNGsuUT1Xs5DgM+gfaAGs4LfLH7m1cUFrD+h42rii9Q0B4506AdcuB0Kabe/mTVo2FXWA6MWa/nLhlLrVckWEweWVyCChLTfBUjtIJC+Kt5m4sZQnenpOK5m0fQB7L7bh+Wpammw81g51WXkKui+cMjulFauyOG2+eBeoS81NMywrz+MXzvZBIFqTX2T76QLakE1C5jVhZZ1B79FQ4HfrPiPrJBFHYW7bGEPWvwiSp3OPPhyiyqjQlZXiehURr5T3TjOBtmsHtWo3AnDj9OfhIbGcPDMYAy15GnNHCfRD/8OLavvGl3TInvdWZ9N1qUerFfwjSgcXITLYtaFw5i+vw==
+    properties :
+     x : 6
+     y : 6
+     width : 504
+     height : 65
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Etape2
+    identifier : 0x24a152fa17306cea
+    internal_properties : CAAAAAgAAABStS1NJBvl1vyEiCr1+7JgQ2WgRPnZqtdKOBynIgioUQaazGH6QPFvNmYpNdq+zPNb9e8MnUfFSV8h8xP3uka6/U5ai0FODx3cjXFniUgdjMd/7I6pE0TxNeZwP+j6HL4Q0z5/Xe2uPWq0gpINupFftTF5DHkF4QiIoHN4I/UAEsyI1YUmFiOfceeTzQCznGUf+7As0RfvJmELeGzS+j3feA5n+MCLQOjQjXeoHJjnyxl8dqqf1JF1dfnWIMPqM5cjHfjDbmvr9qgxySO2deQrLs2GYVDXrc50AHphF6bUMNvsreeawG8CAJFun8TDo78x+LwdrOSEpXPuZc51R5J7S6ILJsON1gCEJLyemChHgriEp6r8J+LH19E18kb5T+bh4clUdaOyUHS2nhCLEUEUAUR46zRCvhz6hUdYsBi7Rl9s/fkqDqwtEGlVL0FCVzj5Z+uFCOKZjPhTki6QYIvjtHWxDlAkJPNRKKKMIE1Twt8KrFvhbgc8r/YFMQ0PZGWEdXV4Jzlj/Q+thOq+nzFvUE3JNMandgdA42YmRemeIZTQ9kgAJE3mcOD48gcqRdY=
+    properties :
+     x : 6
+     y : 75
+     width : 502
+     height : 56
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Etape3
+    identifier : 0x24a152fa172f6cea
+    internal_properties : CAAAAAgAAAA27lbGmLLlm6xkbi7y+uNlPSAPWzvIrJC9sfEGXsZtuxeOEdgNotSdr2WKI8Z2pbiadC1RHoDUVdu6U+hJ0qd3/DsHCUdKrpE3jly4uMQwS5chaBxwSEANYqv9brVzUN1eOpqJE6k6pwndxd4sJIiyUkKacvEqxkVGj2He0i2BcF19QGuQw46iT6NMm4hkmHcFGmrvYs9JzI8Pzw4yZNl7NGxzjBWdpqaNO28SMpwBCtUvxicBpJRoZEAoK5pv29IpNd4Bu9g5Q4ccho55sc9Zh55r60mqa927GkLNF1r9gmSaEW9HWVOhjX/aD3Kp7g/6UEaXC6sikuzCHdrpb8mVNtbd8IQCfOO9XlTCWKycBp8ijZgXfl5StG8n9M61BCQSsXeCxtTUYdm4iljNS3LgZuy4h/s5+vEx+5V2jKhSPk7Ag3ddZUgKi6mr3S/4wqYsiu17J7zhcZech3X/tQpmQ8nAuiyPHKb7PKxtOHKnDx4vSUUNCMECS35vqfaaYQlhd7GDFYVWcLx6yjG57ZzBCx8=
+    properties :
+     x : 6
+     y : 136
+     width : 502
+     height : 296
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Fermer
+    identifier : 0x24a152fa173c6cea
+    internal_properties : CAAAAAgAAAA0ve3Aj6xT34dtIc7NDOp8il5eqrXWxguNNXko9Lg6j1UFhwToeF91zOIb88zfBtMXaIRA8gGf+bGIk33ZJfMYCIVBJTB0SKrppplzqD8k+9FDTBdl3NXos04USTF3hAV5uXYtUX0Vph8SXFkAUCwf+2ptJIkkTupwXHNYO4TzGTlk2DNiWJeCklBN0Hf7VZ59baBoWrCAxo1x9Z5PHksfo2+wH5PRKXbzfxAuWU9K7tBVjy5qTBOvULTud2GhFnwhz+PWwytEsHjr5Oq9bVQxLTR0Yc5nJmy7L3QCVQlgbhDAjaJu5L8t+mEe7RTEbNxvkqovM2SJ48aH304VECJLh/F0oTkmQ/8I45IDpMlcxGCSCiMBUmAt9XFbrOuVF3I63VGqmFDmtUgBQ4pv3E2tkSA4YuWL4RpiuFrAcpcEf5pktpCoy65JRUCxK5I3i0qeaasAhKtjTPcZqZjRzP/LSNXxYSdjhf5ryXFbaTzodCKni43JIceJ/U3msLI1fuqpAoRmQ2eB/I2QdJN2p9lYPbBzqDvZ8h7EbMe7Q60/yhrPXB5bKfJo7tH9W3hPSQJjHMYGWB4/aUHTmhJUa4Iam9goF20hLoyOyFftSwEY/HA74g8sxYNzcUXWhql2o9gywwJM2FbTpbyEa6NoQpYk647lLInOnYlZitiOy9SYMxf5ihw5Z2YJsosqH3XmcRR3Ef2wc95Pmy0u4TJl2lAkjIK4okhs0nzqnD6X03jtho9xpkDOxNkx4Gq5uxsbZXNFD3eYHcOIv2QEQ5IMfWm6CunBWBZhe+5KnoeD4SyHe+AMIQ1Q3LeQm+1N/VS7Xzh40Mq1m/MgXrz2LZK9ECwBtQBqyiVqsq6vWCeh790/gcJ0SJI3VDAUSDM/T0IcKPMvu9gghjtr8A72JqasAezSJQkNogVaGsRtkTDASCrxn+4J7nJ86SYbOPu3LGfDH1aW/pIOTiWYLY8N9lUfmwCcjElr474WmghVojh0l6N/4gY73OYtAlwKTOTLKM5ZaoYnelJlii825EjqIxg1WyWj3YNh0svQ
+    properties :
+     x : 426
+     y : 438
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        code : |1-
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_ImageStat
+    identifier : 0x24a152fa173d6cea
+    internal_properties : CAAAAAgAAAC5DAnF9cNRIwzK2o7AOROdF2/LAIxZ/CcXDe0qDz7e5QeZqHGOpyA0Y9foRZ4kHiZ/lOmnDBpLaX9CIJjb2qrT+ufp4wy+OrvEhHDteQFd1xszTYhLvB9GusNA9EAZ1qzRt6NE96l2LFX9q6K4LdB/Jdd5f0T7sEoNxOHZ9S+J3RGJFORBrVcFdJ3mraIGBNB1QtC0cjJWLo400tB3/3H6f0h4h7dMtkGdKivEhbNlxcfzfSKISkIvKQ+N6WYdcneg6NABz/l1traNPuU21UBtIIg/Eh+Jc7/YIu1ZMEbMtYW59WwkfKgBjtXkXuykIPO38DKobQ+wbr4YmDh9cdaWpTEPRQKldohLxFm6pTKfuR6hgcemKqlecDwg21MAXh7zGXYieq4/JYXpmI2KaOu5HbLkOSTfd+U3U+wpIVZGgCODn5lsEeaigBRB+JpsRfIPnPFKC+ybVZVjEy0z9ajPwDAlpUuEjPnmh+DlqrZnTB/x4ERqlhMSApqUOFaT7tT0aOPrsOwbgi/wEm2q2fo5msHO2ireHOPnNRz+yKRaa5U4gZAXiQrPbtpafx6niY1KBBkdwrUsi3yPa+J6o2tuBu2NzTSjL9pLZfjseRUTbGxPAkMoKlMcPvJMRG6MGQZ5fpblpv+30ZvdphCTaSsoaq8K8BKxYr8XEsgsThbCDAen/BNOhoTiLik8PV+uNCfJ28kBVAhGiMAHx3DIeLW0K3blYEFJIR2rvY35SSDiYxBESxQ6aaU4vzfRaQsa8uJhM1BRsOBrlP0B6lKG+YFM8dlsMVZ7UeYREg1aJeooBnJKgk3SbhOa1RdyiFqSSY/J0uHGHEggpfpf6upQ/2Y/w0wKIVFYJAcpiR+dBqZVIVRlS4Pl0DtIu1/iwljbBkNWYgIIuKqx8SgMWFcz7fEeKhXSvOeP2N9k3mchFZPrKz2UrzTa4yA=
+    properties :
+     x : 13
+     y : 156
+     width : 486
+     height : 268
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : SC_SélectionPériode
+    identifier : 0x275fe0f724566d3c
+    internal_properties : CAAAAAgAAABtUsb9b6xvx5hv5RoOt7G7/E2J2nDuKiURmGcD1BRa95oXtQW/nZr+2MEzsPbjGxLgLNAFWPgTrcuTlPy8izNnu/vyyAhOoDu0scyVf3MmBHIlYlWRBgBDMLhHUpk1Vf+2sHFJx6WhN9F8HByipHUSV/1g1XKs6gmTt3G90hAw3x82fktPKUHaRx1+zTmQgMHT9zWGx976dfWIRqkGvyEZDaIWIVg+Dj24eyUP2cFUhrjn8oV+kZPLvfNDwI2MOsxxtpk2zzoU0SYrX0ccBlsOyD3/DyOzzZUmUnvTAEQHx/ZxbNZ/5rmXU8nOHhNZ1rv2EPMdDlc37VtrCnJfyQUKisQ300DB1/e3G9PG+Z8zZ50SbQlsZRHcQceLJ0Ea85t3XLRD/VbpwfF/josJzJ35SHjOgdWT9DIGK+ITaSEUzOhjZCgvJQzb6mxPtV6vYMJ1Km+SQwOUvV6QPvUh3dSliRZ7ARMoolbuhhOsQRvh/6nA2ldyM3rjwgJiMPQxmc06+TCsrTq1V3BmLc1kl3N74oyl424HQogBTa1IQYsSW2Gozyuu/5sYtb+A36o6uilxIuJclUiOfzhM0pPqqey03CES453y3TiefI3h0ukmtCJlswH/vfnp6Z9rV1gfEepueRoiEL+q7UKHy4xr7/4mxtXvSp/dWpAZPo1v3WPI3otiRA84SctnIhyg+Gt635d5Yddb8Rb7X7u6yeMSjzKkbYrsAWSBt9+QhYihpwgK3sxpD5HF+uCed6KbpvBcPpVCpk2os/4/B5m+ZcsJjwsBTk5UUewLSpTjsUJS4iuI2AfHMLPMYmeD1wbhle2oS967/mGbeIxCe6ZB3xXvjvl38fi41AYBJ4QCJI1o3ie4jm4OHlZ6o4Hg28W8rc6AdRBnMR3gEX+JUWjX9AAcZuBWcZalyuJFnmi3lAvLZ81weSlJdD44mfBT4dtkXhtPTEQaauSJj8UvhOt42jvAUumvkD0Gy1Blu/jcXKE/XYcUiaj1xjwe+4BsLVF2I6GhWlC3BASzPl77yh7FlSdlu9dsG3HoLaYBlJ3fC303Wg8PER+2WZNlJ9LwCt2HjyDBoqroVFke4I/m0WhePUALAiEYsfyzz2gRnTNwpIb3BEZQf3IiNiBnfeQI4jiJIS1oiA6UXfJHSj0OVapV8Cz5IFK7KIakwB4UinxUqXyxv4hPtZ6JaiNpruXF5btpeJMxQo8zqhMvubVj1Al98gS1r1d2z2ZKe0dT1x3FVEJvMqluPPet8+mUVjb8k2JmWEoqYNo235OEnGNLdq9Knm+x23CUpzXhmSkpg8wiRiD+F3kYCBbSrhKzCf1Qzxvfv5MJShlOqGqp/UpMe+6jksXcFfo+gE0oWHa810s0w9EcPUFGXKYTRZeiTrEgr4c=
+    properties :
+     x : 13
+     y : 29
+     width : 476
+     height : 35
+    controls :
+     -
+       name : BTN_Période
+       identifier : 0x275fe0f7245d6d3c
+       internal_properties : CAAAAAgAAABRNrWASNKV5pYEPlCpMni8jxxSvBesuyy9lr/5RwqL7+BrmjI9e5U4W4ZlXmwhEm2OaL5InDxy0o5rR7uTVZ93gj7YKUiGgBrn1sgwwAWV8XKz3Iy2AiIZ+tiSWbCDgy2CQsyXfcsfU1714QYk4HarXHbKNNZzmkxio3xmxzOGxuXjL1fKIytNuUDhaeNJYNt4kd2DqvR7AcHTBHz9QfrsT0lZJ/8Lzg0awBRYi8iikiMpiv1tjQUfKSUeWfX620vsARHFPps31oPhhXrBb0z3kDnXx3a/To/PwL1QwE9rWVFItbhDC/t4qFbovqzTCVoFUDl6ROqDHp0DwDJ9sBqLknKIG5Kw37oBnqN+6r2HcOwBdOwq49vOHei3iHJzJ3LRnifE5qeYnjwxytJvEl+w+NT3/bD7ViESpu92NhvFtMj+rAHyjwSMcYOBqS4e/KbV6Ws9A8KhVeBL0hXkj2RrJUU5loiW2XnRvJP/roC6XwJVoLQzK8THE4AkjFLfr4TWMwF6Ge/p74GLkHu0suU7YbziFB3ZpJn3fubhq6gQ09VQ32Vo+ZmZbVime6aSDcOb7euJuWKMF1lSQtoaorahpi/n9DpY2Qd9UNPTdwncUORi9Nv5WzefPf2xByzRkFeCVRVvKGqcHNaLR5Yc0XZhE99WKRIs3kMQTqi2q9uu1fz28S6wb+RDL1Vxr1R6EdhVc+2ut/lyw9SdgNuVS/C5uO82ioZZ3lUNaPhI2ByXhMOOrb+STDZ/BCtXgIsseRyNDBSm+fsdEl5UnSydmzbkUB2ePwXJmU3+XCwa4AwD9Sxl6hhEpH+p0X0X/ACe9YLPdrICFWdA3hVwAF8Y3CZwl+oNyiacGcgk1Fw6BHTDUtAOBurIfWzJ1iR7aOQTYmZjuNY276k2Zz22OsPPBf5I3SAw3t6WNL9dHYFivlkUzyPakSidgsk6I3iveHx0nVfQcNczCVUhTG7Dz7hOkG3KaGXojO88dWIIWXOWnnuots2+lR2fcq8rV+iLKQ4C58SWCEZZs00DgjmE5+TWOOx/DfCfGxYwSTU9S3FTdqQk+6pEk0n9g+4zk80v3GPDVNs=
+       properties :
+        x : 328
+        y : 2
+        width : 148
+        height : 20
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            // Ouvrir le menu contextuel associé au bouton
+            OuvreMenuContextuel(MenuDatePrédéfinie,moimeme..x,moimeme..y+moimeme..hauteur)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : SAI_DateFin
+       identifier : 0x275fe0f724596d3c
+       internal_properties : CAAAAAgAAAC4gbaFpwxyKYsAujBRDE3bkMgd1f2QRWhBGKScRRXe+QLXtL3K/wPIqfO82y3HSIetm+RUhKRZqNo4+5Q0tscvBeoBa8ueKE0xoRq7a6X803+ukGCMaa9op6ALHy98w9XKJ5UMZ8RDtdwmj36fghLV5Psz761gydGYJbkUpd8Je2UtDN2XCjfdtDuNScGtRCEAdyu7HDhxTPooGOVPIz+p9MhhPBd+AfLy7iLE5F1bvJhOz+TCZv0sDc8EApSbR7iHkL7sdWgaQo9wwiyIPArDvBkzS1moVTWya0gcEYwC8t7w2SPf9AALw55kDd9y11lcgDV8zoPbhQ7ddVRq9bZQS8uFTp8XtiIZEUYTwZisERVh2Jy6f3zRFDLD3btqvFNBfl3wPzEnbAxpL5lWTfdl7XJ/kgCKo6CBNRgkJ/OYlyxZRvyd3UPDzGkM8BKPgnCLyaC4XID9VjBiTjaphN7gSrW7KqCdspnG1DS0WYMj1GvN8mKcqS5GCM9gqgcrmgl3kTWeMo1PpeP3hwzcumphgrILdIGRD8mK9Itq7aRsg4FmsvRFSWMA5A6/g+3gkfWMhmQnfZ8ja/UDC10R8/R+ki2YOu11QLgXaDxW4QzeyNbn5DA7eIwQ2mP/6cWyzKTQckVlMyXd+pAXUGUtOQed72HP+0PsORk2TEZVhUgKg6kc06ziH4YvXqNDiAHVMVTFMiH/+0F5OP0Y1oCyZrfiIwjGBY7IHric4l5FYRIDZN2ZqFvgwa3b+CKBkKDY1PUdAUb6yVHsIWGFMyZFVre98ehDtJoiLPvv5RXjjH3dKzhuHoxvdyDflV2kWF8DVb+zRRpgIz7+K4z3SMiL7+YcxafM0LMle8/vdUVaZbyTXDoz1nQN6RKKwC1HWF0QeswUMpr57TN5Q43LWWz691CefHjRLxPcOefcSjbmLtCKPrSPRnzVOqGCrl2orc/qsBG8sgsIf2NF3xcNm/WbvS+DW0i6SfuAb94PePPdp0ozxxHgBcZ2otCNU/sSPF7zweMygIm66HDbAC6GEiGEoJhOe8UCsHX/fnSqHtaQYm4KQydGEn9qLGB/niGO7R9RV+ZOU1K5GfYIX/d+H4ygkfvhZqK0OW+qYJ2dX4wkjlzTiyfZk152WP7Wl62dUv2Xv0Xed1iqgNxBgoeDL7K/xOcb7jZtfhtG4Zg3uIwsQcgnDXhfidXsrmUndzpfTNdgoRuXMCyBUFEbcevWRv7nhg03HbbDL8A7SBKtqxa/GJzylRj3g8D5b6n0NpbC57qW4Gr/HSLtOY8zqzbAPB8xQqqOXNC1Qg==
+       properties :
+        x : 168
+        width : 141
+        height : 22
+       type : 2
+       code_elements :
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            si DateValide(moimeme)=faux ALORS
+            	moimeme=datesys()
+            	LIB_JOUR_fin = EntierVersJourEnLettre(dateversentier(moimeme))
+            	monparent = SAI_DateDébut+tab+SAI_DateFin
+            FIN
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1+
+            si DateValide(moimeme) ALORS
+            	LIB_JOUR_fin = EntierVersJourEnLettre(dateversentier(moimeme))
+            	monparent = SAI_DateDébut+tab+SAI_DateFin
+            FIN
+           type : 17
+     -
+       name : SAI_DateDébut
+       identifier : 0x275fe0f7245a6d3c
+       internal_properties : CAAAAAgAAADLTwyvNdiv7vFZlkwG0vgtlO0wOimiT4/Pnf5VtQvjQIdN+y0/7EzTEXKxzQ3193laCrMoFczDNmWv3SDgCrZBrn2yfXSLt4/cr7B0I9PuFrLgiUeDUhVjkai5awwdx0Zn1PRoRBnxlIZeACKv4RcZKEOi1/STXU+mYw88drKY6A4XqwZWs9/fxoxg4HybqRRi8Pqm+25YRhiNc6kupN47otQvULW8Si01mlnEs3YfnVOtfZMZHikpS0CkKSip7TODEMuZLtLG6rIVC+ybQRTJF9JWquWFnHI24QEXRY0V+C85UmeDMnHReLh/hbvsh5bWRsMdqoLoLQPEXApBsmx51qtBLxUQM5e+sJ4cXXmSzUcq3D23WfojqZ9aojBiI61wIH4XA7wEj+qOm1zZ6e/NZCex6Igv1w5ziePC1kPdYDXYQS/kIUkXO0otZtvihVJGGkGg5PYcWSF9rkDBusn1Ovs47EZsheTwk4CTz5yFzGYu8H4o9k3lzxvwTD9D2UDRszlvh1LZFzQJTiDw1tEtA0jBu04cnDENkAGiXQV33QQjQz3oZNP+XHcUGRuJ1p/gGKYz2DLJrEagk8GQW9PwwGUS5mFeO9jjo+28aZzaPLktLwzrEHargYRTZska9mH+hAGB+kK/SFMr0zwevFmWKvfnV5pSeFReOVhrGkdYEOIyt8RDc+V+rNyZYFakSyX67hORHBM8g4t/ShyJC3ldljIO0VsOobMukZg5JDuRsSyTwGGXjVjOeJ95jnWvsIzgRfBwriGn1DeiW/Ta3VfI0h6zqk9occzTep1pffBH/L3OuLyEZRseIfqmooTCE4zWA9KEdBihOsxovqby3PR7kMsu0CgrmjIfai1aSH2RKyV5YhrSWV+T/qazJD4DONvPFiAjDKfSyPOI+Z5lsHBx+TSXa0xg2piSkWCIoy9OF0UrWB56IoYnXKjuf1QhFDgZzlHoxCM6CK2GhyVYXKkeohhED46yalkFt5UZDOHxbnCkxxipct0a4wymvm9W7cIphF8y/xZ+K4Y/vh0XqYALYhuSLnDBZZuOWyCm0UuGkqrS0HED3uFI6paIm1A0p1ODG+APjM7LKn/R5frn7hW6MyhwSaT4kZrLOtqI+b2LILSrq3I54qOHC/JtknRcKYYvr4d5ePNhwE6mr9dTFVskWyw1aH0EUQdtgYT+G7Hl4nqtwkcoWBDA3zHxSI8FW1Mpzbtkd3khIPDbTdMIX6vB1LI9T8K6yPQR/NRR0DhEvzaRZMTWTfdBF61AMHKuT7GMt6cOaPjjwYDuv/PttS6Uzd0JhD/kg61X
+       properties :
+        width : 148
+        height : 22
+       type : 2
+       code_elements :
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            si DateValide(moimeme)=faux ALORS
+            	moimeme=datesys()
+            	LIB_JOUR_DEB = EntierVersJourEnLettre(dateversentier(moimeme))
+            	monparent = SAI_DateDébut+tab+SAI_DateFin
+            FIN
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1+
+            si DateValide(moimeme) ALORS
+            	LIB_JOUR_DEB = EntierVersJourEnLettre(dateversentier(moimeme))
+            	monparent = SAI_DateDébut+tab+SAI_DateFin
+            FIN
+            
+           type : 17
+     -
+       name : SPIN_Début
+       identifier : 0x275fe0f7245b6d3c
+       internal_properties : CAAAAAgAAACd68sBZ9qsKQkcHi4YjmghUytSvAHpGSdtMVnU1gARIbtRP0nia6O3ZHBYjBANCZHd34nnFB0E664QT7XeF+mztskBDR8in13IG+hzT/kPE5G3TS2GRS6RgZetigJCb/xNNNu2tebtEZhH2FIEiuoinaNyJ45Bq4JqnwSyKBGag+R/pSuRY65rp4pr8OwpKcBl2ijMMp4nGxsX4vHW03xas3Ibaf/UmEncOEnh2Nq4nHx0/jwEv7riWTPCSuoJGVt23FUC8BF715agwSD2hI/OHL5FAUNw4Z5NssQmLpo5+ZSrQmZPY+Gp4QeVoVQgP8VTKoAPD4nXMpJ3WYmRzWMZ0vPxWFCbUIM28jHwF5lJDL1IGZ/LAWyNgzUN47SAmYYV+zVXGI7roAwZUV8tH1LRLNcmCwe9WQcbnsUANNhT2AHv/lTXNY47lKV407MjtC9cpGb6yfiLLpBvGaB2a8NtWBkFS/7VHwoKcBr8tFyycQ==
+       properties :
+        x : 147
+        y : 2
+        width : 14
+        height : 18
+       type : 11
+       code_elements :
+        type_code : 18
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            dDate est une date
+            
+            dDate = SAI_DateDébut
+            
+            // Jour suivant
+            dDate..jour++
+            
+            // si la date est invalide -> date du jour
+            si datevalide(dDate) ALORS
+            	SAI_DateDébut = dDate
+            sinon
+            	SAI_DateDébut = datesys()
+            FIN
+            
+            ExécuteTraitement(SAI_DateDébut,trtMODIFICATION)
+           type : 26
+         -
+           code : |1-
+            dDate	est une date
+            
+            dDate = SAI_DateDébut
+            
+            // Jour précédent
+            dDate..jour--
+            
+            si datevalide(dDate) ALORS
+            	SAI_DateDébut = dDate
+            sinon
+            	SAI_DateDébut = datesys()
+            FIN
+            
+            ExécuteTraitement(SAI_DateDébut,trtMODIFICATION)
+           type : 27
+     -
+       name : SPIN_Fin
+       identifier : 0x275fe0f7245c6d3c
+       internal_properties : CAAAAAgAAAAJbb+d97oU0aW0wr5AJhit6zvKlPExoUcpSZX8johZBWOhR+mas1u1ePwUQORRbX1Zo52jyPmY13J8G7kCa71vgh0FKXM+k+ls1zSX861DP0178clKhW5RgVdtikJCrzxN9Bs2tWbtEVhHWBKESuoi3SPy586Ba0Jq30Qy6JFaQ2S/5auRY67r54prsGxpKUAl2iiMct7n2xvXovGW07waszLb6X9UGEmcOMmhWJo4HLz0/vzEf3qiuRMiKgqpuTuW/HWiEHFbN3YAIYCWpK+uvN5loeNQwf6tkqQGzrrZ2bRL4gZvQ0EJQWf1AXTA36VzyiCvr2m3EnJXOemx7YN5chORePD7sGMW0pFQNznpbF1oOb/r4Uzt45Xt06zwgb4to22nKOZLWDyByRfth/IR7Bfmg38dsdcDTlVQzGibcFnHxhQX7R5Tds+GPaU5kh2Oxhy0Y3qBKDoRJ1KgMemrEuNb5dA/BXRMcsAGktom5Q==
+       properties :
+        x : 308
+        y : 2
+        width : 14
+        height : 18
+       type : 11
+       code_elements :
+        type_code : 18
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            dDate est une date
+            
+            dDate = SAI_DateFin
+            
+            // Jour suivant
+            dDate..jour++
+            
+            // si la date est invalide -> date du jour
+            si datevalide(dDate) ALORS
+            	SAI_DateFin = dDate
+            sinon
+            	SAI_DateFin = datesys()
+            FIN
+            
+            ExécuteTraitement(SAI_DateFin,trtMODIFICATION)
+           type : 26
+         -
+           code : |1-
+            dDate est une date
+            
+            dDate = SAI_DateFin
+            
+            // Jour précédent
+            dDate..jour--
+            
+            // si la date est invalide -> date du jour
+            si datevalide(dDate) ALORS
+            	SAI_DateFin = dDate
+            sinon
+            	SAI_DateFin = datesys()
+            FIN
+            
+            ExécuteTraitement(SAI_DateFin,trtMODIFICATION)
+           type : 27
+     -
+       name : LIB_JOUR_FIN
+       identifier : 0x275fe0f724576d3c
+       internal_properties : CAAAAAgAAAAt+bn7g5lpfMXrbiiQ6AKzEedYxwY4XPO9Ls5ewRjS/8nBM7ZbmCCWHQO4LcrodPUp5YgfNl3fBuvKPYl14Vug699Z0exskKrO3rLlvq/ohQ2TOBT6/TD0D/x4xZrt9b572vDJKCNdZwJRVfSDOMh610VzjgDkc9JgLWzz9RzKi2vN3EPtPN/4KPqI8jSYhSK7YhDsGyTt988PpIyiqOCd6aEDA8dgof3Ns0o39/uleXBXQI9+ZhF7ZfJzdZdf/jDhx2r+S/zehe9wMF6gNof94Yts6YtPpZBBFnUBVm849lK3u5UfUyo0Dx220wECjNdUhWekCw7HaUEbLi1ktTQAAM5t6cQCMsl3F90jJaH2xKyJZVqbyEy0anWfKHuUATDu6c6TrFtpoJOj+4wLKuli6mSlQKOsCzj8Iug7VKk/AOm3v5NI3ToE1DRYIxZyE4fUIS9vL7+gqyw3P3aiqF9LsHrDFhuQW8LOBvAgEbl6eHo5UwpJyhoXIn2ZUKzSGf4HGiY=
+       properties :
+        x : 240
+        y : 21
+        width : 78
+        height : 14
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_JOUR_DEB
+       identifier : 0x275fe0f724586d3c
+       internal_properties : CAAAAAgAAACf9CrjSLkU7Yr749WhD29Fb3B+2gNE9zLhjsM+sLzxKkNQmrTyE4QdGPWRcC3If1mXtgUP9M7PWaNCLd2Pqabb8/M35Fivp/d2fIQyh4tjDcOYQ+TDp3/JtZDtM+yIusDnxgKp3evqKNTmQn68w0GUvub5o8yNkKXTweoiFcZazqYUr4DJJiyVk2n44K6unIJkgddTA6fTAWxsD8E2aQV5K5BvTM1Knld/6bJVyVOOZmBMddZWnQ44us/gdEnsFXswFabKUAZPuGxOsBjtlDKHQLjafejp1i82nk9vd3GPkqEIc6EKHacXbFlKhbqeuScv1jdoShxsiGaBUCHjPW1qFT2N39t2/eZebcMf/B83wMl0Q8gggG3zDxN7ClD6ZOoxVqIJI23YHV4bixJuTo6wUzf9lGBeZoH/GATHC0FW3l466ZNju4dfxexgkf8KHkFpvBGVHG/iufWEp6UfCxeV2y4G+axi3uO0JO6HDAq/lYANSPiysmEb+dw3qUM+eesSvXJF
+       properties :
+        x : 79
+        y : 19
+        width : 76
+        height : 14
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 40
+    code_elements :
+     type_code : 34
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADftJKTD3XGzdiQndt0EFwNUBJwvscgp0Gb0GpkMCfL/7itgQGWneuvDPfkzf9iIbaXa4F/IkOY47qjQyz10X/eWraQavE2yNKyaxVEPNxf1hC95Cj6lpifKusWwuaAW71inokxM0ZmbZciw9x5bPLqBTS8nG6PvFFOc02AJZNQ0w==
+        code : |1-
+         //Saisie d'une période
+         //
+         //Ce superchamp permet de définir très facilement une fourchette de dates (utile pour des statistiques,...).
+         //L'utilisateur pourra soit choisir la période par un simple bouton (aujourd'hui, hier, mois en cours...) soit indiquer facilement la date de début et de fin. pour plus de lisibilité, les jours de la semaine sont également affichés.
+         //La valeur renvoyée par le superchamp est du type <date de début>+TAB+<date de fin>
+         //Les dates sont au format AAAAMMJJ.
+      -
+        code : |1+
+         
+         // Initialiser les deux champs avec la date du jour
+         SAI_DateDébut = datesys()
+         SAI_DateFin = datesys()
+         
+         ExécuteTraitement(SAI_DateDébut, trtMODIFICATION)
+         ExécuteTraitement(SAI_DateFin, trtMODIFICATION)
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x24a152fa173e6cea
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ popup_menus :
+  -
+    name : MenuDatePrédéfinie
+    identifier : 0x24a152fa173f6cea
+    internal_properties : CAAAAAgAAAA5FUl9GLtd4hNcYYhJOfAvOB50DM4M9l42OZYvU0U6nKbBeoh3TIiaQT1YSR6k14LIENdGzu9TjjJ41EZWEEi/D92O5Fvgt907ZGImfXfI0J0WXkU1Z1BVBP5dPEv4APuFwwStkqk7ECslDSb9h25pwwQmBpqBDEw6x6O+mCZn5rjYsE2cqOWKvd3HybzIVTPbdvTWFRCyZkW5pszFAIg7GpFGqZ7q7fY+a7wMWp3gavwz6qHae4ExExF0Js8FiCx0oSw82RQn66zQCe4DGdJa63rH1M2A5jtM9cYT6oPwGKWv8mzQMAsXiVHWUK9RtKCo6vQ4euFrXgatkjy7QtGWTDET0J8UigB/V4i9cft6vkZqon62zQ==
+    options :
+     -
+       name : MenuAujourdhui
+       identifier : 0x24a152fa17406cea
+       internal_properties : CAAAAAgAAADC5OTEdZDRn0hSpg6rQY5t3nzhspfs3XzWoRm0/KuyPB5jmJQs5JAGr/S29X5bga9AmxmZVVh6fYz21FmVhCR0f8hl7LEgOtEVAwuqNId0SLpab/L9wK7fTNc7yZeVuSCgkzJxVaAJyZwpJgoGEI4hp8jJyHu/7LfwMoDjsyAssa9ZD9ab2RlZZE17KtX7hTdpujYhvqJWirmSIQYx2mTbpLWyVPiZgKxrY2sfBz2zMcH0BB92lfgO0epS2UbURRB/+qHAN4yy603CdlTRQyq1CdIGzRrMsPcU1j6xPNYuiWisXKyE1PlILZnm4vmRbvN/CaFYXXWVevHGbkngUxhYsVu49/Vr6zDgY/Lwkyj6jKv8Tzt4r94aBE4ZQ+dVunjd2a8J6ufvAngePEg2knBg+AR/I7yM1w==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            sSuperChamp est une chaine
+            dDate est une date
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDate
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDate)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDate
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDate)
+            
+            {sSuperChamp,indchamp}..Valeur = dDate+tab+dDate
+           type : 32
+     -
+       name : MenuHier
+       identifier : 0x24a152fa17416cea
+       internal_properties : CAAAAAgAAADBt7Yw6w6agBR3wKo+buJ+4Z4s2cp+KQjsz9IBluVOUufxAPyRr44jlKem8O37nPDdOYm2eGHkGjO7eqPJSqlJV2aqRkLNnAzEXwAmpvNYCJtyt48zk0U/8JMQsEBHb0gMJVRTF7Fz6Y3doUheIra9MUdtA9x6IS/B0rVWphAq1XJ5N7fiO/c3t3uYWmUp+fQPPsnx3FmUr6F8ToWLuNs59UyO5zemFc/hzhOc55g3B+pBLQOsbazXDUdoMY+ecOczd4QO80OP7TqDgeuYtu0QyV5SXu+XaWWZyKDbohqLSEFKPI5j71T+9OByLeKocCIOakMYM513mrTbbCPqVWPQFERxQqeUDCXsTeK4eu42uLlU50DTzrn+16fYiA8JAh+C9HusT6qdjxcP8oA6bQ==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            dDate est une Date = datesys()
+            sSuperChamp est une chaine
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            // Récupérer le jour précédent
+            dDate..jour--
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDate
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDate)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDate
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDate)
+            
+            {sSuperChamp,indchamp}..Valeur = dDate+tab+dDate
+           type : 32
+     -
+       name : MenuSemaineCourante
+       identifier : 0x24a152fa17426cea
+       internal_properties : CAAAAAgAAAAmADnOM9PWVeO4CHSDKq2FWQzZuUm6kbNIvTL2XmimpzJkQKJg3zRSi0RbUT6NhH9VT6FLqJeTWJOmA+QX2l3nPjJ7C+UTMFIKfdPP+Xlql/enzX6rG9N2XuG+xVl/TFJQbUC9/I3cW8vOtFuz7fXv0wfSNJNWARk4sVeZaMbhArVeEICKB/Oidg6u4I5rQp5l4tzQ60vzwA4PN352aIMnLyOM9FM3od48hdetIKzpzBakzEa0dqZkRF+05g5a/KhWd01PzV/g9RCKlCJZWiY2jRVS1UPeByxfIirZ5JADoxXOOBqvuS9cnCgCw8wbiuAAzf89BtUCFBDnXAMvR8N9cmPzt/fTOGg706qs0noAvAgE4ZRp9FmflK/MlhgxitH4CNmnYIyvAswr9enS031r7nsa6XiuFyY=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            dDateDébut est une Date = datesys()
+            dDateFin est une Date = datesys()
+            nNumJour est un entier
+            sSuperChamp est une chaine
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            // Récupérer le numéro du jour de la semaine
+            nNumJour = EntierVersJour(dDateDébut)
+            
+            // Semaine courante
+            dDateDébut..jour -= (nNumJour-1)
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDateDébut
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDateDébut)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDateFin
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDateFin)
+            
+            {sSuperChamp,indchamp}..Valeur = dDateDébut+tab+dDateFin
+           type : 32
+     -
+       name : MenuSemainePrécédente
+       identifier : 0x24a152fa17436cea
+       internal_properties : CAAAAAgAAAC51UcBqiVbuBujMzZ5DrMfe2fdgA3sUuzrG0mYBdI9yaM7LYOHiUX+zaPmMufFtKPVBkld0+Q70h+1wbmTdrt+c+gRZdyw9L/D1dIwKHm/HXJoWDL2DSL5NpQtK3+mXdxuRtqkThxd/kNU4dCmD9+Stdh9aDwBur3g7v50xi6TPfJon3o3/HfbUoVoMsFCCmYWQwdycqbYk0DHMGVmyNu4eYtUfHOv10BrBc4aFOx+XcGfVaZFUPgzT4bTrZL0lrB3ofOk9MTleYF7tS6k1WddaMjxskJyX87Oiw7SWk423dTiJSLz3N3GogXXpk/StVHNeJhco3vfLuYJsXkTDMrhmJ2xqInpyaR9NWAjvSMTKD15F1ygnAS0k5c+OiZs5v+rArI5fZe7tb0+XGHx6Z/4JKqL8Xhu0aEcmGN8
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            dDateDébut est une Date
+            dDateFin est une Date
+            sSuperChamp est une chaine
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            // Positionner le jour sur la semaine précédente
+            dDateDébut..jour -= 6
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDateDébut
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDateDébut)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDateFin
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDateFin)
+            
+            {sSuperChamp,indchamp}..Valeur = dDateDébut+tab+dDateFin
+           type : 32
+     -
+       name : Semaine_précédente
+       identifier : 0x24a152fa17446cea
+       internal_properties : CAAAAAgAAAAfu5/fUH1HAPOLW+77RhcbP2cW6FnM4CJD4x/ss4cD3CZ4qpdfI33kkyUEWPWzG/GRR9EDVCvjNf8VKbF5pWxGjyRDIZJm5IDtC2cnuMk1y2MA0Rz0DzzfHLdKpaKiv+T/Ge2qB6uh3pNQmWKAqx04GQoQH0EJqgAlBQdbT3jmatxMVWLOJ6QWB4wuhlTy8m47DHo+RSyqwIn9UAdLRHAyglrcD9C/hkMhhrDNgNRRKNds4w35Dy38yvgcS/+BDSpHge2YxiJs3upJM/6A0+2nJEShAsLWRBq4FJodf8cbFSjjkxAN8ufA4LoEMtUG8X24VibGLuikDYNWjvbyPjUOZ94cD52NZpAf75GSBiMP3JGpL1jAmppA/bjmAUJGk+Kse70kappGLqQ0Dk+Dl+UM2N4PRWy+8WHc7snW
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            dDateDébut est une Date
+            dDateFin est une Date
+            nNumJour est un entier
+            sSuperChamp est une chaine
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            // Semaine précédente
+            dDateDébut..jour -= 7
+            nNumJour = EntierVersJour(dDateDébut)
+            dDateDébut..jour -= (nNumJour-1)
+            dDateFin = dDateDébut
+            dDateFin += 6
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDateDébut
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDateDébut)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDateFin
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDateFin)
+            
+            {sSuperChamp,indchamp}..Valeur = dDateDébut+tab+dDateFin
+           type : 32
+     -
+       name : MenuMoisCourant
+       identifier : 0x24a152fa17456cea
+       internal_properties : CAAAAAgAAABsxUpqD3zxKdlkwXXI4YmLc4HVZuM6OcQKZxBzut85v3L5nTsKMtv8ZMYdnYXkutDU3UqWuUFXvaMsysODjAA7HMIaiEThZ8PEjfwDhjqTaWDWrPmZQ7DOykpfWoBRlezzEPX5DbbX1A1V0750KxOeB7fakgf2nDk5UbGje/49TeKaTEWUOLl/ViSOtqNasfNZSuxnuIuaBgJCOU7mEry2HjQrKrPbH1X0fm+y43PZWZCUejinH1mEhKn/k+NbJCnpEUKLvkShxzDvp0ZhmD1OAl8zDXwmJ9iG+HYRGRsbbfem9X1aSojAWj9sjNiTXPtLgaq8roj9XZEc+O6FmiKuUs9xjRuwJoCrorLnAjB7/+rL01XVb+Sjuy8FPsS/T+wjLPHMWQDSuNw6mJ0xqliPhPFH5hojU46k
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            dDateDébut est une Date
+            dDateFin est une Date
+            sSuperChamp est une chaine
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            // Mois courant
+            dDateDébut..jour = 1
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDateDébut
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDateDébut)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDateFin
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDateFin)
+            
+            {sSuperChamp,indchamp}..Valeur = dDateDébut+tab+dDateFin
+           type : 32
+     -
+       name : MenuMoisFlottant
+       identifier : 0x24a152fa17466cea
+       internal_properties : CAAAAAgAAAByhUgDvUm/n+QrL7N55unJwGveMuXgW4D+uBiWI5tBMOW9oHCPZAZta0N7GIQZiWRTFTh65zRQdwgIS1OcWHQqxz1WSTuVPlDH9td7+tUJqtKBGcHQeOdMo9h98zTyrF65KGrZzeqejRM5qdeTOu0j5sj/Ru0Djc/nCelBxQVYzBMY5ULJVvjOpl5fke25UnQn7+KoHnaQjqk6zJh7zExzU/6lbrTv78w1lJQfkm9nb5gPl4LnPREDLqc+hz+82+ceokwDcjHWjzredZQbrWyNYVLZP7xS8RpUiZP5ZOsPbF/nnx6CEwuqjxQwwJkhcwaTh9kK6gCxW7jtcKLOYz1GyKr22+DrCc8Jc9OoZ8BkkeGG07FORjXZ/+ptFrhOGbEwKAQN2G0EpTFmun0+Dj58DMeHh55rf5L6e/M=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            dDateDébut est une Date
+            dDateFin est une Date
+            sSuperChamp est une chaine
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            // Mois flottant
+            dDateDébut..mois--
+            dDateDébut..jour++
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDateDébut
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDateDébut)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDateFin
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDateFin)
+            
+            {sSuperChamp,indchamp}..Valeur = dDateDébut+tab+dDateFin
+           type : 32
+     -
+       name : MenuMoisPrécédent
+       identifier : 0x24a152fa17476cea
+       internal_properties : CAAAAAgAAAA5VfTBSHoWJT5+zmN00QwITnjmvjlrsxCzQHKgjWLJVSO7qaQbTT88mbfsShk/qRe/DcdBMM7uIj1X4Ssx7r1QcTaL/WpWBAcB174XMGhj7k1vHLKK1Y65Puw1W6eW6eCm5pYkasx5vvewSmyJuFdh0vEWTJ06AdzTiZJfN+IV5KGTlbvej7n3/SzRb91MBbe3P8x/GP9oDVOQi+M2dNGKen9GDM9TYSoH+WkrIX/jKNosgpFWB8Ab4RhpLdAm1XBJzMZFNftT+hnVX6h4YMJCbhJLNKgMWTj8uYhs8KhYo2pcj6yBTufw+GPeGPrbl7cC1YcP3HqyEwXYgIQAD9v2P5AaJailgd8GHpTZb9rQK27mAg9Vx5ephRG8uKDiXHGti3CPY157Ic4Hy/BAWiwbqddYhEuR4lDNGOP8
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            dDateDébut est une Date
+            dDateFin est une Date
+            sSuperChamp est une chaine
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            // Mois précédent
+            dDateDébut..mois--
+            dDateDébut..jour = 1
+            dDateFin..mois--
+            dDateFin..jour = 31
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDateDébut
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDateDébut)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDateFin
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDateFin)
+            
+            {sSuperChamp,indchamp}..Valeur = dDateDébut+tab+dDateFin
+           type : 32
+     -
+       name : MenuAnnéeCourante
+       identifier : 0x24a152fa17486cea
+       internal_properties : CAAAAAgAAADC1dmqhT5F4pfOLt4g7xZ6g4zvV3U4DaxGJC/Xt05oh8wkAyWn20xe5APYriEeaZYUuWrnhN9dJRrUmMFRCe1id13Eu6ngvkn/SneQRynTNKILG0Ty9bHW1Ot/Ba2q4HrlILk6WNnYrIszWyI00lhcbgR6OlMAAyqSnoeDMkc/RXANvhMc/zjWMkJyvJ0IYmE1MQ9E8y2MvUz03Rgr86/QcjaVRx2a1/2NWf40pzw75Cydl8DCDqYq2QZ8yM5nv4q1KeGubZ4jD7OF4ifWz8IWRD0405RDX3s4e3NHXB0GOfohqIUtF9F/sIk3+wL2GbE2jPKKuJ8atMMwm60yMIsi2bP30kyQ1YYGCJeGdWfsqwy1ExKDDjEeSQ/5rWRvfisFbTOEn1zl7AAJQfIjXbGBmWw8EkBx6VuKy0M=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            dDateDébut est une Date
+            dDateFin est une Date
+            sSuperChamp est une chaine
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            // Année courante
+            dDateDébut..jour = 1
+            dDateDébut..mois = 1
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDateDébut
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDateDébut)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDateFin
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDateFin)
+            
+            {sSuperChamp,indchamp}..Valeur = dDateDébut+tab+dDateFin
+           type : 32
+     -
+       name : MenuAnnéeFlottante
+       identifier : 0x24a152fa17496cfa
+       internal_properties : CAAAAAgAAABWgCGAcSdNup3p/W4MwDMfuxQ8L+i6cE3FFG6f+6CuP3Vx+76k+5uiCpHJdARcPKdu2SYqiJcWXEZ8/laaLwbMNskM6qanbkEr8PLgERi8EBkTx1nsUqpguzhDnqCV4UB9mggg/XcW/SeTsSAPVJOnGRIdVD1MgGd6ArNKpUr4h+rLIJLYjnk7togjVlp4I6D9ORGEH5rip0jyegW+sBesjflHm5IwtBAlPfjp087+ouJDUu8Juz14kqFiTTRHCCTPXiDZnxHtAQ3jQQRw6Pr69sJzPXOhFllsxrbCeVTSPy65icghaSb8LJ9fyOtgwXNckpwLp9Rm5mAfQ/EK07ME1XxcbR1NHTjxFXS1Kk9pGOjs/xxl0LWvbOGjoA2bYHSwocM//QQTqQBg93QiGGyUXnTdLz6gF4eKRZAP
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            dDateDébut est une Date
+            dDateFin est une Date
+            sSuperChamp est une chaine
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            // Année flottante
+            dDateDébut..annee--
+            dDateDébut..jour++
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDateDébut
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDateDébut)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDateFin
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDateFin)
+            
+            {sSuperChamp,indchamp}..Valeur = dDateDébut+tab+dDateFin
+           type : 32
+     -
+       name : Année_précédente
+       identifier : 0x24a152fa174a6cfa
+       internal_properties : CAAAAAgAAAB0lguEmyurVikdOXRPdHCGz0HeLRw6zDWFRRy7JYKmn339ZmjsOFuz7jyNKv6EBhzNmMBESFs50fzGTgj+Bz/zvmcS7k3jADIRYFBKTT4QQf8G0kloWu68Aj7cFBQhe3oFFFL4S6GiXR2nuVYvOcUwryXKpVrra4Kpw9BtMm8pXIv20T1PTH/jK+a5AQ3k44XlxgxP+MPobXNwiyM2dMG6Ko+2vD8jpf6jrV78MECWfYH/M0aF0IdQKO9UYfo15PixQDI1eb817DXhe9IOOW1nuQlGhGi0peZz3WkDuIUR8OH3xzu45GFNXUcace1gsUUOuOi7qA2FWIQnbSftAzEIMSo2PzQRAxBxpZepeWBM5+0lLaRq961lVhxuZ6pOxd+N9ilFvzI5f6IahlsIYRNsSBLjDbhss6OQW6Yx
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            dDateDébut est une Date
+            dDateFin est une Date
+            sSuperChamp est une chaine
+            
+            // Récupérer le nom du super champ
+            sSuperChamp = ExtraitChaîne(ChampContextuel(), 1, ".")
+            
+            // Année précédente
+            dDateDébut..annee--
+            dDateDébut..mois=1
+            dDateDébut..jour=1
+            
+            dDateFin..annee--
+            dDateFin..mois=12
+            dDateFin..jour=31
+            
+            {sSuperChamp+<§$0008§>,indchamp} = dDateDébut
+            {sSuperChamp+<§$0009§>,indchamp} = EntierVersJourEnLettre(dDateDébut)
+            
+            {sSuperChamp+<§$000a§>,indchamp} = dDateFin
+            {sSuperChamp+<§$000b§>,indchamp} = EntierVersJourEnLettre(dDateFin)
+            
+            {sSuperChamp,indchamp}..Valeur = dDateDébut+tab+dDateFin
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar :
+  internal_properties : CAAAAAgAAABFONM5Q4PF6jxKkhNU2eLH+Cd2y5jxVG5Vsz++sWFrvyC5JehiTNAQqe2a3uzt9/lYraNpe1tjhxN5LzZWT+IUH+MJuHgYY9xxYflHOZeNFg84Q18LzWrRwb8YrYj/rr0=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABY65v61wionSu+tu2zJ8J0cYWzB8zv0cJ4wkHsPJUBYmUg7x9MgLpSMcbIWRNn/gCc1HRpzEuq4jno2j6KSRU93VQuUw1iW58L8pCHrMEfdNOTVdp4PDjFuvWJtLCVTXqx095xnZkmXtyVrT+O6q2K/XVtATaSJbEoh796AEM6CBYN5a5N2/Vt+yOJKItoiFG4GTDnId/J6gjXpXViU4PSNcutai8X9z+CbL1sRPh1aIXlRhC9UwBivSioZWvrHX6xVoBnGfxTDcJA14ULBoKbWILclCc0ETFWxE3bp16G/Rn5sKefBjaGYc2Oyg4uHNood2XBTViRiPWXewmUqQbqS+WYpy+M/hhI9SIoUAN4QkmOb7N3
+  type_code : 1
+  p_codes :
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAADWH/HI28R68fwC6mqrEmRoyyANJG6l7Yw5EUgq61+WcQcCRGz6ovPgbaz89q+F73bgDMaXoGQBemGNJJOlSU/DCOmZcvVavQ==
+  original_name : StatistiquesProxy
+resources :
+ string_res :
+  identifier : 0x103a1e28000b593b
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+  strings :
+   -
+     text :
+      fr-FR : MonGraphe
+     index : 0
+   -
+     text :
+      fr-FR : Nombre d'emails traités par jour
+     index : 1
+   -
+     text :
+      fr-FR : Période
+     index : 2
+   -
+     text :
+      fr-FR : Nombre d'emails
+     index : 3
+   -
+     text :
+      fr-FR : Tahoma
+     index : 4
+   -
+     text :
+      fr-FR : Quantité de données traitées par jour
+     index : 5
+   -
+     text :
+      fr-FR : Quantité de données (octets)
+     index : 6
+   -
+     text :
+      fr-FR : "."
+     index : 7
+   -
+     text :
+      fr-FR : .SAI_DateDébut
+     index : 8
+   -
+     text :
+      fr-FR : .LIB_JOUR_DEB
+     index : 9
+   -
+     text :
+      fr-FR : .SAI_DateFin
+     index : 10
+   -
+     text :
+      fr-FR : .LIB_JOUR_FIN
+     index : 11
+   -
+     text :
+      fr-FR : MonGraphe
+     index : 12
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

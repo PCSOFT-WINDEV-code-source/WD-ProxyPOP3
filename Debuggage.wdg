@@ -1,0 +1,195 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Debuggage
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x102b3c9a0048e7b0
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAC8APZjQCiJA3ma9Dc7k+3kRp5TUf6EP0XaleVWyIy9T+xs3vhJDlSh1dMUYA1zt1QU57DAu7l7uO3Vc8ap04RB0HWw8q23T+Co3DE784mCQ6XxmSXWbPkDWBzDHQmHpGNVjbL9u9OyBEMtT08pJwwzKtZ0OFTcAEB41A==
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADfdskIsDssEog5ztCxyMrG5TEWFeMEqnzP2wM5Gpoc/kSLIBZPcP8z+mHYJKH2OH1QKQgzJfdRPWtmUSSi68nWx2Z/v2QE2KTRgw4Gf38tKK0T3fsvfrxFWxcDGD3viUdHtD6onPD4lb5t+QnwBG+vEXiNl5esjpbIJiEvpBJo
+     code : |1+
+      gsFichierConfig est une chaine = frepexe()+["\"]+"config.ini"
+      gbModeDebug est un booléen = INILit(<§@3b9772654e5400c2000d§>, <§@3b9772654e5400c2000e§>, "0", gsFichierConfig)
+      si enmodetest() alors gbModeDebug = vrai
+      gsFicLog est une chaine
+      
+      constant
+      	FIC_XTRACE = <§@3b9772654e5400c2000f§>
+      FIN
+     type : 720896
+  procedures :
+   -
+     name : XTrace
+     internal_properties : CAAAAAgAAACk30CWhpjDSTpaVy1q1hsiL8TsHKKD7T5osozVDZTSw7bbcQxRKvC1oMgKcF621S6kHPSl7v4t43Bc5Z5s/AQlR3Cq+lwSr5LGnhqsnp/AqziV87uHiFXivhNekDWm2LVVjBOpXhMHwMJ1wJdGwiuWj/V5cJqnQtmCN4b4l2PJtLBSDEBJiNdCLoOFkxZ+j3IETumEnzQ=
+     procedure_id : 4294026407599898348
+     type_code : 15
+     code : |1-
+      Procédure XTrace(LOCAL sLigne est une chaine)
+      
+      si pas gbModeDebug alors retour
+      
+      sTimeStamp est une chaine = "["+HeureVersChaine(HeureSys())+"]"
+      
+      // Pour activer la trace, il faut placer la clé XTrace=1
+      // dans la section [TRANSFIC] de win.ini
+      SI INILit(<§@3b9772654e5400c20010§>, <§@3b9772654e5400c20001§>, "0", gsFichierConfig) = "1" ALORS
+      	
+      	// On tente d'ouvrir le fichier de trace en ajout
+      	// (en le créant s'il n'existe pas)
+      	nIDFichier est un entier = fOuvre(FIC_XTRACE, foCréationSiInexistant+foAjout)
+      	// Si l'ouverture échoue, on abandonne
+      	SI nIDFichier = -1 ALORS RETOUR
+      
+      	// On écrit la ligne
+      	fEcritLigne(nIDFichier, sTimeStamp+sLigne)
+      
+      	// Et on referme le fichier
+      	fFerme(nIDFichier)
+      	
+      FIN
+      
+      SI INILit(<§@3b9772654e5400c20010§>, <§@3b9772654e5400c20005§>, "0", gsFichierConfig) = "1" ALORS
+      	Trace(sTimeStamp+sLigne)
+      FIN
+     type : 458752
+   -
+     name : XLog
+     procedure_id : 4294026459617275067
+     type_code : 15
+     code : |1+
+      Procédure XLog(LOCAL sContexte est une chaine, LOCAL sLigne est une chaine)
+      // Procédure pour permettre à WDSetup de générer un fichier de log des opérations effectuées
+      
+      // Chaque log est également une trace
+      XTrace(sContexte +tab+ sLigne)
+      
+      si FenEtat(FEN_Principale) <> Inexistant alors
+      	tableinsereligne(FEN_Principale.TABLE_JournalOperations, 1, datesys(), heuresys(), sContexte, sLigne)
+      FIN
+      
+      // Si on n'a pas spécifié de fichier de log, on sort immédiatement
+      si gsFicLog = "" alors retour
+      
+      // Sinon, on tente d'ouvrir le fichier
+      nIDFichierLog est un entier = fouvre(gsFicLog, foajout+foCréationSiInexistant)
+      // Si l'ouverture est réussie
+      si nIDFichierLog <> -1 alors
+      	
+      	// On écrit le texte du log sous la forme :
+      	// [CONTEXTE - JJMMAAAA - HHMMSS] : TEXTE
+      	fecritligne(nIDFichierLog, "["+ sContexte +" -"+ DateVersChaine(datesys(), <§@3b9772654e5400c2000a§>) +" - "+ gauche(HeureVersChaine(heuresys()), 6)+"] - "+sLigne)
+      	
+      	// Puis on referme le fichier
+      	fferme(nIDFichierLog)
+      	
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3b9772654e5400c2
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : WDSETUP
+     index : 0
+     string_index : 1
+   -
+     text :
+      fr-FR : XTrace
+     index : 1
+     string_index : 23
+   -
+     text :
+      fr-FR : "0"
+     index : 2
+     string_index : 24
+   -
+     text :
+      fr-FR : "1"
+     index : 3
+     string_index : 29
+   -
+     text :
+      fr-FR : WDSETUP
+     index : 4
+     string_index : 3
+   -
+     text :
+      fr-FR : XTraceFen
+     index : 5
+     string_index : 25
+   -
+     text :
+      fr-FR : "0"
+     index : 6
+     string_index : 26
+   -
+     text :
+      fr-FR : "1"
+     index : 7
+     string_index : 30
+   -
+     text :
+      fr-FR : "["
+     index : 8
+     string_index : 6
+   -
+     text :
+      fr-FR : " -"
+     index : 9
+     string_index : 27
+   -
+     text :
+      fr-FR : JJMMAAAA
+     index : 10
+     string_index : 8
+   -
+     text :
+      fr-FR : " -"
+     index : 11
+     string_index : 28
+   -
+     text :
+      fr-FR : " ] :"
+     index : 12
+     string_index : 10
+   -
+     text :
+      fr-FR : WDPROXYPOP3
+     index : 13
+   -
+     text :
+      fr-FR : DEBUG
+     index : 14
+   -
+     text :
+      fr-FR : "c:\\WDProxyPOP3.txt"
+     index : 15
+   -
+     text :
+      fr-FR : WDPROXYPOP3
+     index : 16
+   -
+     text : {}
+     index : 17
+     string_index : 5
+   -
+     text :
+      fr-FR : "] - "
+     index : 18
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
